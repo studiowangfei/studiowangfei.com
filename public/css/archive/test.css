@@ -1,0 +1,13 @@
+.a {
+    width: 480px;
+    height: 600px;
+    background-color: grey;
+    color: red;
+    font-size: 36px;
+}
+
+.b {
+  width: 640px;
+  height: 1200px;
+  background-color: pink;
+}

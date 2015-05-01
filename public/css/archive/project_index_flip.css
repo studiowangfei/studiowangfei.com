@@ -1,0 +1,77 @@
+.icon_container {
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+
+  //border:1px solid blue;
+}
+
+
+/* below is for flip effect */
+/* entire container, keeps perspective */
+.icon_container {
+  perspective: 1000;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+}
+  /* flip the pane when hovered */
+.flipper:hover{
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+}
+
+
+.flipper {
+  width: 210px;
+  height: 214px;
+  margin:18px 0;
+  //border: 1px solid blue;
+}
+
+.front, .back {
+  width: 210px;
+  height: 214px;
+ }
+
+
+
+
+/* flip speed goes here */
+.flipper {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+
+  position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  position: absolute;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+  transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+}

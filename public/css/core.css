@@ -1,0 +1,205 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,400italic,100,700italic,300,700,900,900italic,500italic,100italic,300italic,400);
+/* line 5, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../../sass/core.scss */
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+}
+
+/* line 9, ../../sass/core.scss */
+a {
+  text-decoration: none;
+  color: #999999;
+}
+
+/* line 13, ../../sass/core.scss */
+
+
+/* line 18, ../../sass/core.scss */
+a:visited {
+  text-decoration: none;
+  color: #999999;
+}
+
+/* line 23, ../../sass/core.scss */
+a:hover {
+  color: black;
+}
+
+#current {
+  color: black;
+}
+
+.bold{
+  border-bottom: 4px solid #e3e3e3;
+  color: #515151;
+}
+
+.bold:visited {
+  border-bottom: 4px solid #e3e3e3;
+  color: #515151;
+}
+
+.bold:hover {
+  border-bottom-color: red;
+  cursor: pointer;
+}
+
+
+
+/*web layout container for all pages*/
+
+/* line 8, ../../sass/index.scss */
+html, body {
+  height: auto;
+  overflow: auto;
+  color: #ababab;
+}
+
+
+/* line 26, ../../sass/index.scss */
+.main-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* line 35, ../../sass/index.scss */
+.outer-container {
+  max-width:1032px;
+  min-width:552px;
+  margin: 0 auto;
+  padding: 36px;
+  overflow: auto;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* line 43, ../../sass/index.scss */
+.top-section {
+  display: -webkit-flex;
+  display: flex;
+  border-bottom: 1px solid #B2B2B2;
+  padding: 12px 0;
+  font-size:12px;
+  font-weight:400;
+  margin-bottom: 72px;
+}
+
+/* line 49, ../../sass/index.scss */
+.top-section .left {
+ -webkit-flex: 1;
+  flex: 1;
+}
+/* line 53, ../../sass/index.scss */
+.top-section .item {
+  margin: 0 36px;
+  text-transform: uppercase;
+}
+/* line 58, ../../sass/index.scss */
+.top-section .item:first-child {
+  margin-left: 0;
+}
+/* line 62, ../../sass/index.scss */
+.top-section .item:last-child {
+  margin-right: 0;
+}
+
+.bottom-section {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 112px;
+  padding: 8px 0;
+  font-size:12px;
+  font-weight:400;
+  text-transform: lowercase;
+}
+
+.back_project {
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.copyright {
+  display: -webkit-flex;
+  display: flex;
+  padding: 8px 0;
+  color: #B2B2B2;
+  font-size:10px;
+  font-weight:400;
+  border-top: 1px solid #B2B2B2;
+}
+/* line 72, ../../sass/index.scss */
+.copyright .left {
+  -webkit-flex: 1;
+  flex: 1;
+}

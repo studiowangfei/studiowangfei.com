@@ -1,0 +1,21 @@
+{
+  "name": "studiowangfei.com",
+  "version": "0.1.0",
+  "description": "Fei Wang Personal Website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/studiowangfei/studiowangfei.com"
+  },
+  "keywords": [],
+  "license": "MIT"
+}

@@ -1,0 +1,43 @@
+/* line 8, ../../sass/index.scss */
+html, body {
+  height: 100%;
+  color: #ababab;
+  overflow: auto;
+}
+
+/* line 14, ../../sass/index.scss */
+.background-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/background/01.jpg);
+  height: 100%;
+  overflow: auto;
+}
+
+/* line 22, ../../sass/index.scss */
+.empty-box {
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+/* line 26, ../../sass/index.scss */
+.main-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+/* line 35, ../../sass/index.scss */
+.outer-container {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 32px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+
