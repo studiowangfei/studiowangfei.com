@@ -1,0 +1,446 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"bor",
+				"border-box"
+			],
+			[
+				"ro",
+				"rotateY"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"info",
+				"infowindow_total"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"proj",
+				"project_arrow_left"
+			],
+			[
+				"project",
+				"project_slide_img"
+			],
+			[
+				"windowH",
+				"windowHeight-72"
+			],
+			[
+				"border",
+				"border-box"
+			],
+			[
+				"poker",
+				"poker_flip"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"shuffl",
+				"shuffle_top_"
+			],
+			[
+				"shuff",
+				"shuffle_top_front"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"webkit",
+				"webkit-flex"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"rg",
+				"right_4"
+			],
+			[
+				"right",
+				"right_3"
+			],
+			[
+				"po",
+				"poker_sort"
+			],
+			[
+				"le",
+				"left_3"
+			],
+			[
+				"nyc",
+				"nycsub_slideshow"
+			],
+			[
+				"nycsub",
+				"nycsub_ridermap_"
+			],
+			[
+				"poker_s",
+				"poker_s_A"
+			],
+			[
+				"urban",
+				"urbanrural_box"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"text-de",
+				"text-decoration"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"backg",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/FILES/Dropbox/website/public/project/drawit.html",
+		"/Volumes/FILES/Dropbox/website/public/contact.html",
+		"/Volumes/FILES/Dropbox/website/public/project/closer.html",
+		"/Volumes/FILES/Dropbox/website/public/project/impressionism.html",
+		"/Volumes/FILES/Dropbox/website/public/project/urbanrural.html",
+		"/Volumes/FILES/Dropbox/website/public/project/work.html",
+		"/Volumes/FILES/Dropbox/website/public/project/sfpopos.html",
+		"/Volumes/FILES/Dropbox/website/public/project/taobao.html",
+		"/Volumes/FILES/Dropbox/website/public/project/anotherleap.html",
+		"/V/A/3d/Renderings/20150506_watercolors/render macros.txt",
+		"/C/Users/Fei.Wang/Dropbox/website/public/contact.html",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/public/js/project.js",
+		"/C/Users/Fei.Wang/Downloads/optimized_contents/css/site.css",
+		"/C/Users/Fei.Wang/Downloads/optimized_contents/js/index.js",
+		"/C/Users/Fei.Wang/Dropbox/website/public/css/project_page.css",
+		"/C/Users/Fei.Wang/Dropbox/website/minify/js/sfpopos.js",
+		"/C/Users/Fei.Wang/Dropbox/website/minify/js/nycsub.js",
+		"/C/Users/Fei.Wang/Dropbox/website/public/js/contact.js",
+		"/C/Users/Fei.Wang/Dropbox/website/public/js/project.js",
+		"/C/Users/Fei.Wang/Dropbox/website/public/js/about.js",
+		"/C/Users/Fei.Wang/Dropbox/website/public/js/sfpopos.js",
+		"/C/Users/Fei.Wang/Dropbox/website/public/css/about.css",
+		"/C/Users/Fei.Wang/Dropbox/website/public/css/contact.css",
+		"/C/Users/Fei.Wang/Dropbox/website/public/css/core.css",
+		"/C/Users/Fei.Wang/Dropbox/website/public/about.html",
+		"/C/Users/Fei.Wang/Dropbox/website/public/project.html",
+		"/C/Users/Fei.Wang/Dropbox/website/minify/css/project_page.css",
+		"/C/Users/Fei.Wang/Dropbox/website/minify/css/core.css",
+		"/C/Users/Fei.Wang/Dropbox/website/public/js/nycsub.js",
+		"/C/Users/Fei.Wang/Dropbox/website/minify/js/penpower.js",
+		"/C/Users/Fei.Wang/Dropbox/website/minify/js/project.js",
+		"/C/Users/Fei.Wang/Dropbox/website/minify/js/taobao.js",
+		"/C/Users/Fei.Wang/Dropbox/website/minify/js/about.js",
+		"/C/Users/Fei.Wang/Dropbox/website/minify/js/work.js",
+		"/C/Users/Fei.Wang/Dropbox/website/minify/js/anotherleap.js",
+		"/C/Users/Fei.Wang/Dropbox/website/minify/js/holistic.js",
+		"/C/Users/Fei.Wang/Dropbox/website/public/js/holistic.js",
+		"/C/Users/Fei.Wang/Downloads/public/project/holistic.html",
+		"/C/Users/Fei.Wang/Downloads/public/css/project_page.css",
+		"/C/Users/Fei.Wang/Downloads/public/css/core.css",
+		"/C/Users/Fei.Wang/Downloads/public/js/taobao.js",
+		"/C/Users/Fei.Wang/Dropbox/website/public/js/taobao.js",
+		"/C/Users/Fei.Wang/Downloads/public/project.html",
+		"/C/Users/Fei.Wang/Downloads/public/js/nycsub.js",
+		"/C/Users/Fei.Wang/Downloads/public/js/project.js",
+		"/C/Users/Fei.Wang/Downloads/minify/js/sfpopos.js",
+		"/C/Users/Fei.Wang/Downloads/minify/js/project.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/js/penpower.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/MANIFEST",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/js/closer.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/js/drawit.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/js/holistic.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/js/impressionism.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/js/urbanrural.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/js/work.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/js/nycsub.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/js/sfpopos.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/js/taobao.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/js/inin.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/js/nycsub.js",
+		"/C/Users/Fei.Wang/Dropbox/website/public/js/core.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/js/anotherleap.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/css/core.css",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/css/project_page.css",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/js/anotherleap.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/css/contact.css",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/js/contact.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/css/project_index.css",
+		"/C/Users/Fei.Wang/Downloads/minimize/optimized_contents/css/contact.css",
+		"/C/Users/Fei.Wang/Downloads/minimize/js/project.js",
+		"/C/Users/Fei.Wang/Downloads/minimize/css/core.css",
+		"/C/Users/Fei.Wang/Downloads/minimize/MANIFEST",
+		"/C/Users/Fei.Wang/Downloads/css/core.css",
+		"/C/Users/Fei.Wang/Downloads/css/project_index.css",
+		"/C/Users/Fei.Wang/Downloads/js/project.js",
+		"/C/Users/Fei.Wang/Dropbox/website/public/sublime_project.sublime-project",
+		"/C/Users/Fei.Wang/Dropbox/website/public/project/sfpopos.html",
+		"/C/Users/Fei.Wang/Dropbox/website/public/project/nycsub.html",
+		"//sfemc01/prjimage3/8_Washington-V/A/3d/Renderings/20150506_watercolors/render macros.txt",
+		"//sfemc01/prjimage3/8_Washington-V/A/3d/Renderings/20150506_watercolors/render settings.txt",
+		"//sfemc01/prjimage3/8_Washington-V/A/3d/Renderings/20150126_watercolors/render macros.txt",
+		"//sfemc01/prjimage3/8_Washington-V/A/3d/Renderings/20150126_watercolors/render settings.txt",
+		"/C/Program Files/Sublime Text 3/residential_projects_database.json",
+		"/C/Users/Fei.Wang/Dropbox/website/20150504_archive_studiowangfei.com/public/js/project.js",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/public/css/core.css",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/public/css/core (SFW501's conflicted copy 2015-05-06).css",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/.git/logs/HEAD (SFW501's conflicted copy 2015-05-06)",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/.git/logs/HEAD",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/.git/index (SFW501's conflicted copy 2015-05-06)",
+		"/C/Users/Fei.Wang/Dropbox/website/20150505_conflicted_copy/(SFW501's conflicted copy 2015-05-06).gitignore",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/.gitignore",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/server (SFW501's conflicted copy 2015-05-06).js",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/server.js",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/package.json",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/package (SFW501's conflicted copy 2015-05-06).json",
+		"/C/Users/Fei.Wang/Dropbox/bookmarks_5_6_15.html",
+		"/Q/references/residential footprints/sf/Arc Light/Apartments For Rent in San Francisco, CA _ Arc Light Apartments.html",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/public/project.html",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/public/project/taobao.html",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/public/js/nycsub.js",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/public/css/project_index.css",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/public/js/taobao.js",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/public/css/project_page.css",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/public/css/components.css",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/public/about.html",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/public/contact.html",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/public/index.html",
+		"/C/Users/Fei.Wang/Dropbox/website/20150505_conflicted_copy/index (fei wang's conflicted copy 2015-05-05)",
+		"/C/Users/Fei.Wang/Google Drive/website/studiowangfei.com/public/project.html",
+		"/C/Users/Fei.Wang/Google Drive/website/studiowangfei.com/public/index.html",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/public/project/nycsub.html",
+		"/C/Users/Fei.Wang/Google Drive/website/studiowangfei.com/js-modules.js",
+		"/C/Users/Fei.Wang/Google Drive/website/studiowangfei.com/gulpfile.js",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/.git/refs/remotes/origin/master",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/.git/refs/remotes/origin/master (SFW501's conflicted copy 2015-05-01)",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/public/project/test.html",
+		"/C/Users/Fei.Wang/Dropbox/website/studiowangfei.com/public/project/test.css",
+		"/C/Users/Fei.Wang/Dropbox/website/20150504_archive_studiowangfei.com/public/js/nycsub.js",
+		"/C/Users/Fei.Wang/Dropbox/website/201503_Archive_Studiowangfei/flip.css",
+		"/C/Users/Fei.Wang/Dropbox/website/201503_Archive_Studiowangfei/project/penpower.html",
+		"/C/Users/Fei.Wang/Downloads/processing-2.2.1/modes/java/reference/index.html",
+		"/Volumes/FILES/Downloads/indicator_data_6138.json",
+		"/Volumes/FILES/Dropbox/website/studiowangfei.com/public/js/penpower.js",
+		"/Volumes/FILES/Dropbox/website/studiowangfei.com/public/js/sfpopos.js",
+		"/Volumes/FILES/Dropbox/website/studiowangfei.com/public/css/project_page.css",
+		"/Volumes/FILES/Dropbox/website/studiowangfei.com/public/css/project_index.css",
+		"/Volumes/FILES/Dropbox/website/studiowangfei.com/public/css/about.css",
+		"/Volumes/FILES/Dropbox/website/studiowangfei.com/public/css/contact.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"map_resize",
+			"resize",
+			"fullscree",
+			"esc",
+			"map_fullscreen",
+			"nycsub",
+			"resize",
+			"/",
+			"\\n",
+			"z-index",
+			"lexington",
+			"\"Name\"",
+			"FRANKLIN",
+			"\"G\"",
+			"G",
+			"GS",
+			"marker",
+			"poker_flip",
+			"1px",
+			"test",
+			"italic",
+			"ita"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sfpopos",
+			"",
+			"\"Station_name\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
