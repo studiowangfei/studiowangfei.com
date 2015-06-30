@@ -6,149 +6,98 @@
     <link type="text/css" rel="stylesheet" href="../css/core.css" />
     <link type="text/css" rel="stylesheet" href="../css/project_page.css" />
     <link rel="icon" href="../img/icon.png" />
-    <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj-qZOU9FxF-Xj7imTNeFaRDOA8vk7Q_8">
-    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="../js/nycsub.js">
-    </script>
-
+    <script src="https://fb.me/react-0.13.3.min.js"></script>
   </head>
   <body>
-    <div class="top-placeholder">
-      </div>
-      <div class="top-container">
-        <div class="top-section">
-          <div class="left">
-            <a class="item" href="http://www.studiowangfei.com/">studiowangfei</a>
-          </div>
-          <div>
-            <a class="item" id="current" href="../project.html">project</a>
-            <a class="item" href="../about.html">about</a>
-            <a class="item" href="../contact.html">contact</a>
-          </div>
-        </div>
-      </div>
-      <div class="outer-container">
-        <div class="main-container">
+    <div id="topContainer"></div>
+    <div class="outer-container">
+      <div class="main-container">
+        <div class="project_name">New York City Sub Rider-Readers</div>
+        <div id="projectTitleContainer"></div>
+        <div id="projectContainer"></div>
 
-          <div class="project_title">
-            <p>New York City Sub Rider-Readers</p>
+        <!--customized part-->
+        <div class="feature_container">
+          <div class="nycsub" ontouchstart: "this.classList.toggle('hover');">
           </div>
-
-          <div class="project_container">
-            <div class="project_brief">
-              Most of time data visualization targets on the crowd as a whole, which leaves personal touch behind. NYC Sub Rider-Readers tries to bridge the data of "whole" and the data of "one". The project is comprised of two parts: one is the visualization of weekday, weekend and annual riderships of every New York subway stations, which represents the movement of subway riders across the city; the other is tracking subway readers - who constitute a fairly amount of daily commuters - and generating personal travelling maps of their reading behaviors. Using digital data collected by ticket checking machine and physical mapping rendered by photographs and drawings, the project delivers an image of contemporary moving and reading in metropolis.
-              <br></br>Data source: <a class="bold" href="http://web.mta.info/nyct/facts/ridership/">MTA</a> of New York, Underground New York Public Library
-              <br><span class="bold" id="scroll">Scroll down</span> to play with the interactive maps.</br>
-            </div>
-
-            <div class="project_img">
+          <div id="nycsub_map-canvas" ontouchstart: "this.classList.toggle('hover');">
+          </div>
+          <div class="nycsub_map_scale">
+            <div class="nycsub_map_scale_year"></div>
+            <div class="nycsub_map_scale_wkd"></div>
+            <div class="nycsub_map_scale_wknd"></div>
+            <div class="nycsub_map_scale_text">
+              <p id="nycsub_map_scale_year">Year</p>
+              <br><p id="nycsub_map_scale_wkd">Weekday</p></br>
+              <p id="nycsub_map_scale_wknd">Weekend</p>
             </div>
           </div>
-
-          <div class="feature_container">
-            <div class="nycsub" ontouchstart: "this.classList.toggle('hover');">
-            </div>
-            <div id="nycsub_map-canvas" ontouchstart: "this.classList.toggle('hover');">
-            </div>
-            <div class="nycsub_map_scale">
-              <div class="nycsub_map_scale_year"></div>
-              <div class="nycsub_map_scale_wkd"></div>
-              <div class="nycsub_map_scale_wknd"></div>
-              <div class="nycsub_map_scale_text">
-                <p id="nycsub_map_scale_year">Year</p>
-                <br><p id="nycsub_map_scale_wkd">Weekday</p></br>
-                <p id="nycsub_map_scale_wknd">Weekend</p>
-              </div>
-            </div>
-
-            <div class="nycsub_lines_circle" id="map_fullscreen">◀ &nbsp;▶
-            </div>
-          </div>
-
-          <div class="nycsub_lines">
-            <div class="nycsub_lines_circle" id="nycsub_123">1 2 3
-            </div>
-            <div class="nycsub_lines_circle" id="nycsub_456">4 5 6
-            </div>
-            <div class="nycsub_lines_circle" id="nycsub_7">7
-            </div>
-            <div class="nycsub_lines_circle" id="nycsub_ace">A C E
-            </div>
-            <div class="nycsub_lines_circle" id="nycsub_bdfm">B D F M
-            </div>
-            <div class="nycsub_lines_circle" id="nycsub_nqr">N Q R
-            </div>
-            <div class="nycsub_lines_circle" id="nycsub_jz">J Z
-            </div>
-            <div class="nycsub_lines_circle" id="nycsub_l">L
-            </div>
-            <div class="nycsub_lines_circle" id="nycsub_all">ALL
-            </div>
-            <div class="nycsub_lines_circle" id="nycsub_down">▼
-            </div>
-          </div>
-
-
-          <div class="bottom-section">
-            <div class="back_project"><a href="../project.html">BACK</a></div>
-            <div class="prev_next_project"><a href="taobao_2.html">PREV</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="inin.html">NEXT</a></div>
-          </div>
-          <div class="copyright">
-            <span class="left">&nbsp;</span>
-            <span>
-              &#169; 2010 - 2015 studiowangfei | all rights reserved
-            </span>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="project_slide_container">
-        <div class="project_close">
-          <img src="../img/close.png"/>
-        </div>
-
-        <div class="project_slide">
-          <div id="project_arrow_left"><img src="../img/arrow_left.png"/>
-          </div>
-          <div class="project_slide_img">
-          </div>
-          <div id="project_arrow_right"><img src="../img/arrow_right.png"/>
+          <div class="nycsub_lines_circle" id="map_fullscreen">◀ &nbsp;▶
           </div>
         </div>
-      </div>
 
-      <div class="nycsub_slide_container">
-        <div class="nycsub_close">
-          <img src="../img/close.png"/>
+        <div class="nycsub_lines">
+          <div class="nycsub_lines_circle" id="nycsub_123">1 2 3
+          </div>
+          <div class="nycsub_lines_circle" id="nycsub_456">4 5 6
+          </div>
+          <div class="nycsub_lines_circle" id="nycsub_7">7
+          </div>
+          <div class="nycsub_lines_circle" id="nycsub_ace">A C E
+          </div>
+          <div class="nycsub_lines_circle" id="nycsub_bdfm">B D F M
+          </div>
+          <div class="nycsub_lines_circle" id="nycsub_nqr">N Q R
+          </div>
+          <div class="nycsub_lines_circle" id="nycsub_jz">J Z
+          </div>
+          <div class="nycsub_lines_circle" id="nycsub_l">L
+          </div>
+          <div class="nycsub_lines_circle" id="nycsub_all">ALL
+          </div>
+          <div class="nycsub_lines_circle" id="nycsub_down">▼
+          </div>
         </div>
+        <!--customized part ends-->
 
-        <div class="nycsub_slide">
-          <div id="nycsub_arrow_left"><img src="../img/arrow_left.png"/></div>
-          <div class="nycsub_slide_img"></div>
-          <div id="nycsub_arrow_right"><img src="../img/arrow_right.png"/></div>
-        </div>
+        <div id="bottomContainer"></div>
       </div>
+    </div>
+    <div id="projectSlideContainer"></div>
 
-      <div class="nycsub_map_container">
+    <!--customized part-->
+    <div class="nycsub_slide_container">
+      <div class="nycsub_close">
+        <img src="../img/close.png"/>
       </div>
-
-      <div class="nycsub_map_scale_fullscreen">
-        <div class="nycsub_map_scale_year"></div>
-        <div class="nycsub_map_scale_wkd"></div>
-        <div class="nycsub_map_scale_wknd"></div>
-        <div class="nycsub_map_scale_text">
-          <p id="nycsub_map_scale_year">Year</p>
-          <br><p id="nycsub_map_scale_wkd">Weekday</p></br>
-          <p id="nycsub_map_scale_wknd">Weekend</p>
-        </div>
+      <div class="nycsub_slide">
+        <div id="nycsub_arrow_left"><img src="../img/arrow_left.png"/></div>
+        <div class="nycsub_slide_img"></div>
+        <div id="nycsub_arrow_right"><img src="../img/arrow_right.png"/></div>
       </div>
-      <div class="nycsub_lines_circle" id="map_close">✕
+    </div>
+    <div class="nycsub_map_container">
+    </div>
+    <div class="nycsub_map_scale_fullscreen">
+      <div class="nycsub_map_scale_year"></div>
+      <div class="nycsub_map_scale_wkd"></div>
+      <div class="nycsub_map_scale_wknd"></div>
+      <div class="nycsub_map_scale_text">
+        <p id="nycsub_map_scale_year">Year</p>
+        <br><p id="nycsub_map_scale_wkd">Weekday</p></br>
+        <p id="nycsub_map_scale_wknd">Weekend</p>
       </div>
+    </div>
+    <div class="nycsub_lines_circle" id="map_close">✕
+    </div>
+    <!--customized part ends-->
 
-
-
+    <script src="../js/project_data.json"></script>
+    <script src="../js/project_framework.js"></script>
+    <script src="../js/nycsub_data.json"></script>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj-qZOU9FxF-Xj7imTNeFaRDOA8vk7Q_8"></script>
+    <script type="text/javascript" src="../js/nycsub.js"></script>
   </body>
 </html>

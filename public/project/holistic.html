@@ -7,71 +7,27 @@
     <link type="text/css" rel="stylesheet" href="../css/project_page.css" />
     <link rel="icon" href="../img/icon.png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="../js/holistic.js"></script>
-
+    <script src="https://fb.me/react-0.13.3.min.js"></script>
   </head>
   <body>
-    <div class="top-placeholder">
-      </div>
-      <div class="top-container">
-        <div class="top-section">
-          <div class="left">
-            <a class="item" href="http://www.studiowangfei.com/">studiowangfei</a>
-          </div>
-          <div>
-            <a class="item" id="current" href="../project.html">project</a>
-            <a class="item" href="../about.html">about</a>
-            <a class="item" href="../contact.html">contact</a>
-          </div>
+    <div id="topContainer"></div>
+    <div class="outer-container">
+      <div class="main-container">
+        <div class="project_name">Holistic Realm</div>
+        <div id="projectTitleContainer"></div>
+        <div id="projectContainer"></div>
+
+        <!--customized part-->
+        <div class="feature_container">
         </div>
+        <!--customized part ends-->
+
+        <div id="bottomContainer"></div>
       </div>
-      <div class="outer-container">
-        <div class="main-container">
+    </div>
+    <div id="projectSlideContainer"></div>
 
-          <div class="project_title">
-            <p>Holistic Realm</p>
-          </div>
-
-          <div class="project_container">
-              <div class="project_brief">
-                <p>Holistic Realm revists two traditional Chinese spatial typologies - the courtyard house and the garden- and synthesize them into a new urban morphology that deals with contemporary urban density and quality. The initial research is based on figure-ground method and fast prototyping of varied forms. The further design is forwarded through both 2D and 3D representational mediums. The final 1:200 physical model is made through laser-cut and origami folding of over 200 components.
-                <br></br>
-                Holistic Realm received 1st Prize in 2011 Chengdu Biennale design competition, and Honor Prize from Design Awards of Architectural-Review Magazine in 2012. It was exhibited in the Garden City unit of 2011 Chengdu Biennale.
-                </p>
-              </div>
-
-              <div class="project_img">
-              </div>
-          </div>
-
-          <div class="bottom-section">
-            <div class="back_project"><a href="../project.html">BACK</a></div>
-            <div class="prev_next_project"><a href="impressionism.html">PREV</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="drawit.html">NEXT</a></div>
-          </div>
-          <div class="copyright">
-            <span class="left">&nbsp;</span>
-            <span>
-              &#169; 2010 - 2015 studiowangfei | all rights reserved
-            </span>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="project_slide_container">
-        <div class="project_close">
-          <img src="../img/close.png"/>
-        </div>
-
-        <div class="project_slide">
-          <div id="project_arrow_left"><img src="../img/arrow_left.png"/>
-          </div>
-          <div class="project_slide_img">
-          </div>
-          <div id="project_arrow_right"><img src="../img/arrow_right.png"/>
-          </div>
-        </div>
-      </div>
-
+    <script src="../js/project_data.json"></script>
+    <script src="../js/project_framework.js"></script>
   </body>
 </html>

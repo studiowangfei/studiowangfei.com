@@ -7,70 +7,29 @@
     <link type="text/css" rel="stylesheet" href="../css/project_page.css" />
     <link rel="icon" href="../img/icon.png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="../js/inin.js"></script>
-
+    <script src="https://fb.me/react-0.13.3.min.js"></script>
   </head>
   <body>
-    <div class="top-placeholder">
-      </div>
-      <div class="top-container">
-        <div class="top-section">
-          <div class="left">
-            <a class="item" href="http://www.studiowangfei.com/">studiowangfei</a>
-          </div>
-          <div>
-            <a class="item" id="current" href="../project.html">project</a>
-            <a class="item" href="../about.html">about</a>
-            <a class="item" href="../contact.html">contact</a>
-          </div>
+    <div id="topContainer"></div>
+    <div class="outer-container">
+      <div class="main-container">
+        <div class="project_name">Inside x Insight</div>
+        <div id="projectTitleContainer"></div>
+        <div id="projectContainer"></div>
+          <p style="font-size: 12px">Follow us on WeChat,  ID: <span class="bold" id="wechat">another_3</span></p>
+          <div id="wechatCode"><img src="../img/project/inin/qr_code.jpg"/></div>
+        <!--customized part-->
+        <div class="feature_container">
         </div>
+        <!--customized part ends-->
+
+        <div id="bottomContainer"></div>
       </div>
-      <div class="outer-container">
-        <div class="main-container">
+    </div>
+    <div id="projectSlideContainer"></div>
 
-          <div class="project_title">
-            <p>Inside x Insight</p>
-          </div>
-
-          <div class="project_container">
-              <div class="project_brief">
-                <p>Data is neutral, dry and messy, while information is political, palatable and organized. Today we are using tons of raw data to manufacture information products. Rather than focusing on news that attracts short attention, Inside x Insight is deciphering events that awaits long digestion. As a data-driven media, Inside x Insight covers politics, technology, economy, culture and environment using multiple open-source and authorized data. The product is currently embedded in the largest Chinese IM tool WeChat platform and has 2000+ active subscribers, our collaborators and contributors include <a class="bold" href="http://www.aliresearch.com">AliResearch</a>, <a class="bold" href="http://www.stamen.com">Stamen Design</a>, <a class="bold" href="http://powerstationofart.com/">Power Station of Art</a>, <a class="bold" href="http://xiaoji-chen.com/">Xiaoji Chen</a> etc.</br> <br>Follow us on WeChat,  ID: <span class="bold" id="wechat">another_3</span></p>
-                <div id="wechatCode"><img src="../img/project/inin/qr_code.jpg"/></div>
-              </div>
-
-              <div class="project_img">
-              </div>
-          </div>
-
-          <div class="bottom-section">
-            <div class="back_project"><a href="../project.html">BACK</a></div>
-            <div class="prev_next_project"><a href="nycsub.html">PREV</a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="taobao.html">NEXT</a></div>
-          </div>
-          <div class="copyright">
-            <span class="left">&nbsp;</span>
-            <span>
-              &#169; 2010 - 2015 studiowangfei | all rights reserved
-            </span>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="project_slide_container">
-        <div class="project_close">
-          <img src="../img/close.png"/>
-        </div>
-
-        <div class="project_slide">
-          <div id="project_arrow_left"><img src="../img/arrow_left.png"/>
-          </div>
-          <div class="project_slide_img">
-          </div>
-          <div id="project_arrow_right"><img src="../img/arrow_right.png"/>
-          </div>
-        </div>
-      </div>
-
-
+    <script src="../js/project_data.json"></script>
+    <script src="../js/project_framework.js"></script>
+    <script src="../js/inin.js"></script>
   </body>
 </html>
