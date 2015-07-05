@@ -1,5 +1,4 @@
 # www.studiowangfei.com
 # Personal Website
-# Build a customizable framework using React.js
-# All data is used under permission
+# A customizable framework using React.js, projects are built with feature interactive part while maintain a shared framework 
 
