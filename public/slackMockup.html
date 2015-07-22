@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="core.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="core.js"></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="left-container">
+        <div class="title">
+          another<span style="font-size: 12px">&nbsp;&nbsp;&nbsp;&nbsp;-Fei Wang</span>
+        </div>
+        <div class="sections" id="channel-section">
+          CHANNEL
+          <li>New Landing Page</li>
+          <li class="item-highlight" id="channel-list">New Feature (click)</li>
+          <li>Bug Fix</li>
+          <li>Ad & Marketing</li>
+        </div>
+
+        <div class="sections" id="group-section">
+          GROUP
+          <li>deploy</li>
+          <li class="item-highlight" id="group-list">test (click)</li>
+          <li>ui/ux</li>
+          <li>product</li>
+        </div>
+
+        <div class="sections" id="private-section">
+          private
+          <li>James Murphy</li>
+          <li>Al Doyle</li>
+          <li>Pat Mahoney</li>
+          <li class="item-highlight" id="private-list">Nancy Hwang (click)</li>
+          <li>Tim Goldsworthy</li>
+          <li>Teddy JP</li>
+        </div>
+      </div>
+
+      <div class="right-container">
+        <div class="columns" id="channel-container">
+          <div class="top-title">
+            <div class="title-name">Channels - New Feature(12)</div>
+            <div class="close-button" id="channel-close">x</div>
+          </div>
+          <div class="chat-window">
+            me: our next push will be Aug.21, any thoughts?
+            <br></br>
+            <img src="slack_calendar.jpg" />
+            <br></br><br></br>NH: that's ambitious - -
+            <br></br><br></br>MJ: how many features we decide to add?
+            <br></br><br></br>KJ: I agree with NH, kind of tight right now...
+            <br></br><br></br>AD: are we going to have more helpers? we probably need more testing folks if we want to kill it in less than a month.
+            <br></br><br></br>me: talking to our testing team right now
+          </div>
+          <input class="bottom-input" value="&nbsp;&nbsp;&nbsp;>......">
+        </div>
+
+        <div class="columns" id="group-container">
+          <div class="top-title">
+            <div class="title-name"> Group - Testing Team(3) </div>
+            <div class="close-button" id="group-close">x</div>
+          </div>
+          <div class="chat-window">
+            TH: snippet is here guys!
+            <br></br>
+            <img src="slack_snippet.jpg" />
+            <br></br>
+            me: that's awesome Tim! By the way could you guys send me a brief schedule on your current tasks?
+
+            <br></br><br></br>TH: i guess we have new things to play with?
+            <br></br><br></br>me: we do...
+            <br></br><br></br>PP: my current thing will be wrapped up in two and half days. happy to jump over
+            <br></br><br></br>me: great, let me check with Nancy to make sure everything is smooth
+            <br></br><br></br>me: thanks Pat!
+          </div>
+          <input class="bottom-input" value="&nbsp;&nbsp;&nbsp;>......">
+        </div>
+
+        <div class="columns" id="private-container">
+          <div class="top-title">
+            <div class="title-name">Individual - Nancy Hwang(1)</div>
+            <div class="close-button" id="private-close">x</div>
+          </div>
+          <div class="chat-window">
+            me: hi Nancy, our new feature team probably need 1 or 2 more testing folks to push for a ddline? how does that sound in terms of budget?
+
+            <br></br><br></br>NH: did you check with testing team?
+            <br></br><br></br>me: I do. Pat is probably available soon? just want to make sure we are good to add one more engineer to the team
+            <br></br><br></br>NH: let me check the project budget sheet very soon and will get back to you asap.
+            <br></br><br></br>NH: here is the budget sheet, please do NOT share. thx
+            <br></br><img src="slack_budget.png" />
+          </div>
+          <input class="bottom-input" value="&nbsp;&nbsp;&nbsp;sounds great! thank Nancy>......">
+        </div>
+
+      </div>
+    </div>
+    <style>@import url(http://fonts.googleapis.com/css?family=Roboto:500,400italic,100,700italic,300,700,900,900italic,500italic,100italic,300italic,400);#channel-list,#group-list,#private-list,.close-button{cursor:pointer}html{font-family:Roboto,sans-serif;font-size:14px}body{margin:0;padding:0;-webkit-box-sizing:border-box}.main-container,body{box-sizing:border-box}.main-container{width:100%;height:100%;display:-webkit-flex;display:flex;display:-ms-flex;-webkit-box-sizing:border-box}.left-container{background-color:#4D394B;width:220px;padding:16px;box-sizing:border-box;-webkit-box-sizing:border-box}.title{color:#a9a9a9;font-size:21px;font-weight:500}.sections{margin-top:36px;color:#a9a9a9}.sections li{margin-left:16px;margin-top:4px;padding:4px}.item-highlight{color:#fff;background-color:#4C9689}.item-normal{color:#a9a9a9;background-color:none}.right-container{display:-webkit-flex;display:flex;display:-ms-flex}.columns{border-left:4px solid #fff;width:100%;transition:.25s}.top-title{display:flex;display:-webkit-flex;color:#fff;padding:6px;height:32px;background-color:#4C9689;text-align:center;font-size:16px;box-sizing:border-box;-webkit-box-sizing:border-box;box-shadow:0 4px 0 #35695f;z-index:1;position:relative}.title-name{-webkit-flex:1;flex:1}.close-button{color:#fff;background-color:#35695f;width:21px;height:21px;border-radius:21px}.chat-window{box-sizing:border-box;-webkit-box-sizing:border-box;//margin:4px 0;background:linear-gradient(to bottom,#dbeae7,#fff);-webkit-background:linear-gradient(to bottom,#dbeae7,#fff);padding:16px;position:relative;z-index:0}.bottom-input{box-sizing:border-box;-webkit-box-sizing:border-box;border:1px solid #b3b3b3;height:48px;width:100%;font-size:16px;padding-top:8px;margin-top:4px}</style>
+    <script>$(document).ready(function(){function c(){var a=0;return 1==$("#channel-container").is(":visible")&&(a+=1),1==$("#group-container").is(":visible")&&(a+=1),1==$("#private-container").is(":visible")&&(a+=1),a}var a;a=$(".main-container").width()-220,$(".columns").css("width",a/c()+"px");var b;b=$(window).height(),$(".left-container, .right-container").css("height",b+"px"),$(".chat-window").css("height",b-86+"px"),$(window).resize(function(){a=$(".main-container").width()-220,$(".columns").css("width",a/c()+"px"),b=$(window).height(),$(".left-container, .right-container").css("height",b+"px"),$(".chat-window").css("height",b-86+"px")}),$("#channel-container, #group-container").css("opacity","0.35"),$("#channel-container").click(function(){1==$("#channel-container").is(":visible")&&($("#group-container, #private-container").css("opacity","0.35"),$(this).css("opacity","1"))}),$("#group-container").click(function(){1==$("#group-container").is(":visible")&&($("#channel-container, #private-container").css("opacity","0.35"),$(this).css("opacity","1"))}),$("#private-container").click(function(){1==$("#private-container").is(":visible")&&($("#channel-container, #group-container").css("opacity","0.35"),$(this).css("opacity","1"))}),$("#channel-close").click(function(){$("#channel-container").hide(),$(".columns").css("width",a/c()+"px"),$("#channel-list").removeClass("item-highlight").addClass("item-normal")}),$("#channel-list").click(function(){$("#channel-container").show(),$(".columns").css("width",a/c()+"px"),$("#channel-list").removeClass("item-normal").addClass("item-highlight"),$("#group-container, #private-container").css("opacity","0.35"),$("#channel-container").css("opacity","1")}),$("#group-close").click(function(){$("#group-container").hide(),$(".columns").css("width",a/c()+8+"px"),$("#group-list").removeClass("item-highlight").addClass("item-normal")}),$("#group-list").click(function(){$("#group-container").show(),$(".columns").css("width",a/c()+"px"),$("#group-list").removeClass("item-normal").addClass("item-highlight"),$("#channel-container, #private-container").css("opacity","0.35"),$("#group-container").css("opacity","1")}),$("#private-close").click(function(){$("#private-container").hide(),$(".columns").css("width",a/c()+"px"),$("#private-list").removeClass("item-highlight").addClass("item-normal")}),$("#private-list").click(function(){$("#private-container").show(),$(".columns").css("width",a/c()+"px"),$("#private-list").removeClass("item-normal").addClass("item-highlight"),$("#channel-container, #group-container").css("opacity","0.35"),$("#private-container").css("opacity","1")})});</script>
+  </body>
+</html>
