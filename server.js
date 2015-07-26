@@ -5,7 +5,7 @@ server.set('port', (process.env.PORT || 5000));
 server.use(express.static(__dirname + '/public', { maxAge: 24 * 3600 * 1000 }));
 
 server.get('/', function(request, response){
-  response.sendFile('public/project', { root: __dirname });
+  response.sendFile('public/projects', { root: __dirname });
 });
 
 server.listen(server.get('port'), function() {
