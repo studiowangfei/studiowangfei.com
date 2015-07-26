@@ -39,7 +39,7 @@
         <div class="feature_container">
           <div class="poker_title">
           </div>
-          <div class="taobao_poker" ontouchstart: "this.classList.toggle('hover');">
+          <div class="taobao_poker">
             <div class="taobao_items_1">
             </div>
             <div class="taobao_items_2">
