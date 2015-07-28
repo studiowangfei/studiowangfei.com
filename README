@@ -2,7 +2,6 @@ www.studiowangfei.com
 
 Personal portfolio site, mostly academic and research projects
 
-A customizable framework built with ReactJS, for standard project content and feature interactive part. project data is JSON-based.
-
-All data is used under permission.
+This is the minified / production version deployed to Heroku.
+Check https://github.com/studiowangfei/React_studiowangfei.com for dev code.
 
