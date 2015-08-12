@@ -179,8 +179,7 @@ html, body {
   flex-flow: row wrap;
   -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
-  max-width:960px;
-  min-width:360px;
+  position: relative;
   margin: 0 auto;
   padding: 21px 0;
   font-size: 12px;
@@ -224,7 +223,7 @@ html, body {
 #logo,
 #logo:hover,
 #logo:visited {
-  color: red;
+  color: black;
 }
 
 #logo{
