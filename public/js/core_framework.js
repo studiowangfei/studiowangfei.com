@@ -138,6 +138,9 @@ $(document).ready(function(){
       $('.top-section .left')
       .css('width', containerWidth*0.9 + 'px');
 
+      $('.top-section .right')
+      .css('width', containerWidth*0.75 + 'px');
+
       $('#logo')
       .css('font-size', '18px');
 
@@ -147,8 +150,8 @@ $(document).ready(function(){
       $('#menu-icon')
       .css('display', 'initial');
 
-      $('.right')
-      .css('display', 'none');
+      //$('.right')
+      //.css('display', 'none');
     }
   }
 
