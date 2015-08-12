@@ -214,7 +214,7 @@ html, body {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
-  border: 1px solid blue;
+  border: 1px solid red;
 }
 
 .top-section .right {
@@ -228,7 +228,7 @@ html, body {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   text-align: center;
-  border: 1px solid blue;
+  border: 1px solid red;
 }
 
 #current,
