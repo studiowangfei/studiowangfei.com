@@ -176,6 +176,9 @@ html, body {
   justify-content: space-between;
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
   max-width:960px;
   min-width:360px;
   margin: 0 auto;
@@ -222,6 +225,11 @@ html, body {
 #logo:hover,
 #logo:visited {
   color: black;
+}
+
+#logo{
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
 }
 
 .top-section .item {
