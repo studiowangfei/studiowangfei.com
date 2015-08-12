@@ -224,7 +224,7 @@ html, body {
 #logo,
 #logo:hover,
 #logo:visited {
-  color: black;
+  color: red;
 }
 
 #logo{
