@@ -105,7 +105,7 @@ $(document).ready(function(){
 
   // top container responsive to window width
   function headerResponsive(){
-    var containerWidth = $('.main-container').width();
+    var containerWidth = $('.feature_container').width();
     if (containerWidth > 840){
       // hide medu button and cascade list
       $('.top-section .left')
