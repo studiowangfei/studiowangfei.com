@@ -108,6 +108,12 @@ $(document).ready(function(){
     var containerWidth = $('.main-container').width();
     if (containerWidth > 840){
       // hide medu button and cascade list
+      $('.top-section .left')
+      .css('width', '64%');
+
+      $('.top-section .right')
+      .css('width', '34%');
+
       $('#logo')
       .css('font-size', '14px');
 
@@ -129,6 +135,9 @@ $(document).ready(function(){
       });
     }else{
       // hide horizontal menu and show menu button
+      $('.top-section .left')
+      .css('width', containerWidth*0.9 + 'px');
+
       $('#logo')
       .css('font-size', '18px');
 

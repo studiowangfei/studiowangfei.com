@@ -210,10 +210,11 @@ html, body {
 }
 
 .top-section .left {
-  width: 66%;
+  width: 64%;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
+  border: 1px solid blue;
 }
 
 .top-section .right {
@@ -227,6 +228,7 @@ html, body {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   text-align: center;
+  border: 1px solid blue;
 }
 
 #current,
