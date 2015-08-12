@@ -50,27 +50,28 @@ var TopContainer = React.createClass({displayName: "TopContainer",
       React.createElement("div", null, 
         React.createElement("div", {className: "top-placeholder"}
         ), 
-        React.createElement("div", {className: "top-container"}, 
-          React.createElement("div", {className: "top-section"}, 
-            React.createElement("div", {className: "left"}, 
-              React.createElement("a", {id: "logo", href: "http://www.studiowangfei.com/"}, "Studiowangfei")
+        React.createElement("div", {className: "top-fullwidth-container"}, 
+          React.createElement("div", {className: "top-container"}, 
+            React.createElement("div", {className: "top-section"}, 
+              React.createElement("div", {className: "left"}, 
+                React.createElement("a", {id: "logo", href: "http://www.studiowangfei.com/"}, "Studiowangfei")
+              ), 
+              React.createElement("ul", {className: "right"}, 
+                React.createElement("li", null, React.createElement("a", {className: "item", id: projectPage, href: urlMap+"project.html"}, " Project")), 
+                React.createElement("li", null, React.createElement("a", {className: "item", id: aboutPage, href: urlMap+"about.html"}, " About")), 
+                React.createElement("li", null, React.createElement("a", {className: "item", id: blogPage, href: urlMap+"blog.html"}, " Blog")), 
+                React.createElement("li", null, React.createElement("a", {className: "item", id: contactPage, href: urlMap+"contact.html"}, " Contact"))
+              ), 
+              React.createElement("div", {id: "menu-icon"})
             ), 
-            React.createElement("ul", {className: "right"}, 
-              React.createElement("li", null, React.createElement("a", {className: "item", id: projectPage, href: urlMap+"project.html"}, " Project")), 
-              React.createElement("li", null, React.createElement("a", {className: "item", id: aboutPage, href: urlMap+"about.html"}, " About")), 
-              React.createElement("li", null, React.createElement("a", {className: "item", id: blogPage, href: urlMap+"blog.html"}, " Blog")), 
-              React.createElement("li", null, React.createElement("a", {className: "item", id: contactPage, href: urlMap+"contact.html"}, " Contact"))
-            ), 
-            React.createElement("div", {id: "menu-icon"})
-          ), 
 
-          React.createElement("ul", {className: "hiddenList"}, 
-            React.createElement("li", null, React.createElement("a", {className: "item", href: urlMap+"project.html"}, " Project")), 
-            React.createElement("li", null, React.createElement("a", {className: "item", href: urlMap+"about.html"}, " About")), 
-            React.createElement("li", null, React.createElement("a", {className: "item", href: urlMap+"blog.html"}, " Blog")), 
-            React.createElement("li", null, React.createElement("a", {className: "item", href: urlMap+"contact.html"}, " Contact"))
+            React.createElement("ul", {className: "hiddenList"}, 
+              React.createElement("li", null, React.createElement("a", {className: "item", href: urlMap+"project.html"}, " Project")), 
+              React.createElement("li", null, React.createElement("a", {className: "item", href: urlMap+"about.html"}, " About")), 
+              React.createElement("li", null, React.createElement("a", {className: "item", href: urlMap+"blog.html"}, " Blog")), 
+              React.createElement("li", null, React.createElement("a", {className: "item", href: urlMap+"contact.html"}, " Contact"))
+            )
           )
-
         )
       )
     );
@@ -84,7 +85,6 @@ React.render(
 
 // standard controller for all pages
 $(document).ready(function(){
-  var containerWidth = $('.main-container').width();
 
   // back to top when reload
   $(window).on('beforeunload', function(){
@@ -95,16 +95,17 @@ $(document).ready(function(){
   function headerEffect(){
     var topMargin = $(window).scrollTop();
     if (topMargin == 0 && $('#menu-icon').css('display') == 'none'){
-      $('.top-container')
+      $('.top-fullwidth-container')
       .removeClass('addColorShadow');
     }else{
-      $('.top-container')
+      $('.top-fullwidth-container')
       .addClass('addColorShadow');
     }
   }
 
   // top container responsive to window width
   function headerResponsive(){
+    var containerWidth = $('.main-container').width();
     if (containerWidth > 840){
       // hide medu button and cascade list
       $('#logo')
@@ -116,7 +117,7 @@ $(document).ready(function(){
       $('.hiddenList')
       .css('display', 'none');
 
-      $('.top-container')
+      $('.top-fullwidth-container')
       .removeClass('extendHeight');
 
       $('.right')
@@ -131,7 +132,7 @@ $(document).ready(function(){
       $('#logo')
       .css('font-size', '18px');
 
-      $('.top-container')
+      $('.top-fullwidth-container')
       .addClass('addColorShadow');
 
       $('#menu-icon')
@@ -147,7 +148,7 @@ $(document).ready(function(){
     $('#menu-icon')
     .toggleClass('menu-icon-transform')
 
-    $('.top-container')
+    $('.top-fullwidth-container')
     .toggleClass('extendHeight');
 
     $('.hiddenList').fadeToggle(750);
@@ -156,7 +157,7 @@ $(document).ready(function(){
   headerEffect();
   headerResponsive();
   $(window).resize(function(){
-    containerWidth = $('.main-container').width();
+    var containerWidth = $('.main-container').width();
     $('#menu-icon')
     .removeClass('menu-icon-transform');
     headerResponsive();
