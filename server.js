@@ -8,6 +8,6 @@ server.get('/', function(request, response){
   response.sendFile('public/project.html', { root: __dirname });
 });
 
-server.listen(server.get('port'), function() {
+server.listen(server.get('port'), function(){
   console.log('The server is running at ' + server.get('port'));
 });
