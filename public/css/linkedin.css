@@ -41,7 +41,7 @@
   opacity: 1;
 }
 
-#img_6{
+#img_10{
   position: relative;
 }
 
@@ -51,6 +51,7 @@
 }
 
 .button_container div{
+  //border: 1px solid red;
   width: 156px;
   height: 200px;
   cursor: pointer;
@@ -64,12 +65,26 @@
 
 #button_1{
   position: relative;
-  left: 106px;
-  top: 620px;
+  left: 314px;
+  top: -156px;
 }
 
 #button_2{
   position: relative;
-  left: 710px;
-  top: 240px;
+  left: 638px;
+  top: -394px;
 }
+
+#button_3{
+  position: relative;
+  left: 106px;
+  top: 220px;
+}
+
+#button_4{
+  position: relative;
+  left: 710px;
+  top: -148px;
+}
+
+

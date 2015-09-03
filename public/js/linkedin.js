@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   function imageSwitch(n){
     return function(){
-      for (var i=0; i<7; i++){
+      for (var i=0; i<11; i++){
         $('#img_'+i).css('opacity', '0');
       }
 
@@ -11,15 +11,14 @@ $(document).ready(function(){
   }
 
 
-  for (var i=0; i<3; i++){
+  for (var i=0; i<5; i++){
     $('#button_'+i)
     .mouseenter(imageSwitch(i+1))
     .mouseleave(imageSwitch(0));
 
-    $('#button_'+i).click(imageSwitch(i+4));
+    $('#button_'+i).click(imageSwitch(i+6));
   }
 
-  $('.close_button').click(imageSwitch(5));
-
+  $('.close_button').click(imageSwitch(9));
 
 });
