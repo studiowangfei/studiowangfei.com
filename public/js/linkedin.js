@@ -20,6 +20,17 @@ $(document).ready(function(){
   }
 
   $('.close_button').click(imageSwitch(9));
+  
+  function closeButtonPosition(){
+    var width = $(window).width();
+    console.log(width);
+    $('.close_button').css('left', (width-960)*0.5+920+'px');
+  }
+
+  closeButtonPosition();
+  $(window).resize(function(){
+    closeButtonPosition()
+  });
 
   function closeButtonPosition(){
     var width = $(window).width();
