@@ -1,0 +1,148 @@
+.mockup-switch{
+  width: 960px;
+  padding: 16px 360px;
+  margin: 0px auto;
+  display: -webkit-flex;
+  display: flex;
+  display: -ms-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.outer-container{
+  width: 960px;
+  height: 560px;
+  padding: 32px;
+  font-size: 14px;
+  border-radius: 24px;
+  color: black;
+  margin: 0px auto;
+  margin-bottom: 128px;
+  background-color: black;
+  display: -webkit-flex;
+  display: flex;
+  display: -ms-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+}
+
+.main-container{
+  width: 860px;
+  font-size: 14px;
+  border-radius: 24px;
+  color: black;
+  margin: 0px auto;
+  background-color: black;
+}
+
+.top-button{
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: flex;
+  display: -ms-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  width: 640px;
+}
+
+.info-text{
+  padding-top: 16px;
+  font-size: 18px;
+  color: #515151;
+}
+
+.undo, .blank{
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  padding-top: 8px;
+}
+
+.blank{
+  background-color: black;
+}
+
+.undo{
+  position: relative;
+  left: 100px;
+  opacity: 0.5;
+}
+
+.undo img{
+  height: 100%;
+}
+
+.back:hover, .next:hover, .undo:hover{
+  cursor: pointer;
+}
+
+.sort-container{
+  width: 832px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 64px;
+  overflow: hidden;
+}
+
+.sort-container div{
+  margin: 32px 0;
+
+}
+
+.sort-picture{
+  position: relative;
+  margin: 0px auto;
+  width: 832px;
+  height: 271px;
+  display: -webkit-flex;
+  display: flex;
+  display: -ms-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-justify-content: space-between;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  transition: all 2.5s;
+}
+
+.sort-picture div{
+  width: 412px;
+  height: 279px;
+  padding: 2px;
+  margin-bottom: 64px;
+  border: 4px solid black;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  transition: all 0.5s;
+}
+
+
+.sort-picture:hover{
+  cursor: pointer;
+}
+
+.selected{
+  transition:all 0.5s;
+}
+
+.side-container{
+  width: 96px;
+  margin-left: 32px;
+  height: 550px;
+  overflow: hidden;
+}
+
+.side-preview img{
+  margin: 16px 0;
+}
+
+.side-preview img:hover{
+  cursor: pointer;
+}
+
+
