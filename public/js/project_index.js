@@ -1,1 +1,93 @@
-$(document).ready(function(){function o(){var o=$(window).width();o>=1032?$(".icon_container").css("width","960px"):o>=792?$(".icon_container").css("width","720px"):o>=552?$(".icon_container").css("width","480px"):$(".icon_container").css("width","240px")}$(window).on("beforeunload",function(){$(window).scrollTop(0)});for(var t=0;16>t;t++){var c;0===t?c="project/mylio.html":1===t?c="project/sombim.html":2===t?c="project/webframe.html":3===t?c="project/taobao_2.html":4===t?c="project/nycsub.html":5===t?c="project/inin.html":6===t?c="project/taobao.html":7===t?c="project/sfpopos.html":8===t?c="project/work.html":9===t?c="project/anotherleap.html":10===t?c="project/urbanrural.html":11===t?c="project/impressionism.html":12===t?c="project/holistic.html":13===t?c="project/drawit.html":14===t&&(c="project/closer.html"),$(".icon_container").append('<div class="flipper" id="flipper_'+t+'"><a href='+c+'><div class="front"></div></a><div class="back"></div></div>'),$("#flipper_"+t+" .front").css("background-image",'url("img/project/project_icon/project_sprite_front.png")').css("background-repeat","no-repeat").css("background-position",-220*t+"px 0px"),$("#flipper_"+t+" .back").css("background-image",'url("img/project/project_icon/project_sprite_back.png")').css("background-repeat","no-repeat").css("background-position",-220*t+"px 0px")}$("#flipper_15").empty(),$(".front").mouseenter(function(){$(".back").css("opacity","1")}),o(),$(window).resize(function(){o()})});
+$(document).ready(function(){
+  $(window).on('beforeunload', function() {
+    $(window).scrollTop(0);
+  });
+
+   //flipper append, using sprite method
+  for(var i=0;i<16;i++){
+    var projectUrl;
+    if(i===0){
+      projectUrl="project/mylio.html"
+    }else if(i===1){
+      projectUrl="project/sombim.html"
+    }else if(i===2){
+      projectUrl="project/linkedin.html"
+    }else if(i===3){
+      projectUrl="project/taobao_2.html"
+    }else if(i===4){
+      projectUrl="project/nycsub.html"
+    }else if(i===5){
+      projectUrl="project/webframe.html"
+    }else if(i===6){
+      projectUrl="project/taobao.html"
+    }else if(i===7){
+      projectUrl="project/sfpopos.html"
+    }else if(i===8){
+      projectUrl="project/inin.html"
+    }else if(i===9){
+      projectUrl="project/work.html"
+    }else if(i===10){
+      projectUrl="project/anotherleap.html"
+    }else if(i===11){
+      projectUrl="project/urbanrural.html"
+    }else if(i===12){
+      projectUrl="project/impressionism.html"
+    }else if(i===13){
+      projectUrl="project/holistic.html"
+    }else if(i===14){
+      projectUrl="project/drawit.html"
+    }else if(i===15){
+      projectUrl="project/closer.html"
+    }
+
+    $('.icon_container').append('<div class="flipper" id="flipper_'+i+'">'
+      +'<a href='+projectUrl+'><div class="front"></div></a><div class="back"></div></div>');
+
+    $('#flipper_'+i+' .front')
+    .css('background-image', 'url("img/project/project_icon/project_sprite_front.png")')
+    .css('background-repeat','no-repeat')
+    .css('background-position', -220*i+'px 0px');
+
+    $('#flipper_'+i+' .back')
+    .css('background-image', 'url("img/project/project_icon/project_sprite_back.png")')
+    .css('background-repeat','no-repeat')
+    .css('background-position', -220*i+'px 0px');
+  };
+
+  // adjust last icon for last row (not necessary when n=4x)
+  // hide but still maintain that placeholder for flex justify-content: space-between
+  //$('#flipper_15').empty();
+
+  // change opacity to show title when hover
+  $('.front').mouseenter(
+    function(){
+      $('.back')
+      .css('opacity', '1')
+    }
+  );
+
+  // project icons layout setting
+  // responsive to window width
+  function projectIconLayout(){
+    var containerWidth = $(window).width();
+    if (containerWidth >= 1032){
+      $('.icon_container')
+      .css('width', '960px');
+    }else if (containerWidth >= 792){
+      $('.icon_container')
+      .css('width', '720px');
+    }else if (containerWidth >= 552){
+      $('.icon_container')
+      .css('width', '480px');
+    }else{
+      $('.icon_container')
+      .css('width', '240px');
+    }
+  }
+
+  projectIconLayout();
+  $(window).resize(function(){
+    projectIconLayout();
+  });
+
+});

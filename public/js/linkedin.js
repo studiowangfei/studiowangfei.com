@@ -10,7 +10,6 @@ $(document).ready(function(){
     }
   }
 
-
   for (var i=0; i<5; i++){
     $('#button_'+i)
     .mouseenter(imageSwitch(i+1))
@@ -18,29 +17,5 @@ $(document).ready(function(){
 
     $('#button_'+i).click(imageSwitch(i+6));
   }
-
-  $('.close_button').click(imageSwitch(9));
-  
-  function closeButtonPosition(){
-    var width = $(window).width();
-    console.log(width);
-    $('.close_button').css('left', (width-960)*0.5+920+'px');
-  }
-
-  closeButtonPosition();
-  $(window).resize(function(){
-    closeButtonPosition()
-  });
-
-  function closeButtonPosition(){
-    var width = $(window).width();
-    console.log(width);
-    $('.close_button').css('left', (width-960)*0.5+920+'px');
-  }
-
-  closeButtonPosition();
-  $(window).resize(function(){
-    closeButtonPosition()
-  });
 
 });

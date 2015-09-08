@@ -4,6 +4,7 @@
 var projectList = [
   "Mylio Pair",
   "SOM BIM Data Dashboard",
+  "LinkedIn Welcome-Back Portal",
   "Another Taobao Village 2",
   "New York City Sub Rider-Readers",
   "Studiowangfei.com v1.0",
@@ -209,7 +210,7 @@ $(document).ready(function(){
       $('.project_img')
       .css('width', '58%')
       .css('margin', '0 auto')
-      .css('height', '500px');
+      .css('height', '400px');
 
       $('.project_title')
       .css('text-align', 'left');

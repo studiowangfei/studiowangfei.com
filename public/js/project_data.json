@@ -6,7 +6,7 @@ var projectData = [
   "projectUrl": "mylio.html",
   "imgNum": 4,
   "imgUrl": "../img/project/mylio/",
-  "scrollDownValue": 980,
+  "scrollDownValue": 640,
   "relatedLinks": [
     {"website": " - Mylio", "weblink": "http://www.mylio.com"},
     {"website": " - Design Process", "weblink": "http://issuu.com/studiowangfei/docs/mylio_process"}],
@@ -20,12 +20,26 @@ var projectData = [
   "projectUrl": "sombim.html",
   "imgNum": 3,
   "imgUrl": "../img/project/sombim/",
-  "scrollDownValue": 980,
+  "scrollDownValue": 640,
   "relatedLinks": [
     {"website": " - SOM LLP.", "weblink": "http://www.som.com"},
     {"website": " - Design Process", "weblink": "http://issuu.com/studiowangfei/docs/bim_process"}],
-  "story": "SOM BIM Data is a web-based dashboard for managing complex and large-scale building projects. It helps designers, engineers, and project managers to track, sync and analyze the data such as builing footprint, energy saving and consumption and construction cost from BIM (Building information model). Different from traditional CMS, this web-based dashboard is focused on real-time data. It's envisioned and designed as a collaborating platform for all players working on the same project.",
-  "scrollDown": " to see the design process, information architecture and mock-ups. All numbers here are faked."
+  "story": "SOM BIM Data is a web-based dashboard for managing and collaborating on complex and large-scale building projects. It helps designers, engineers, and project managers to track, sync and analyze the data such as builing footprint, energy saving and consumption and construction cost from BIM (Building information model). Different from traditional CMS, the project dashboard is focused on real-time data. It's envisioned and designed as a data-exchanging and tunneling platform for all players working on the same project.",
+  "scrollDown": " to see the design process, information architecture and mock-ups. All numbers here are faked due to NDA."
+  },
+  {
+  "name": "LinkedIn Welcome-Back Portal",
+  "year": 2015,
+  "type": "Product",
+  "projectUrl": "linkedin.html",
+  "imgNum": 3,
+  "imgUrl": "../img/project/linkedin/",
+  "scrollDownValue": 640,
+  "relatedLinks": [
+    {"website": " - LinkedIn", "weblink": "http://www.linkedin.com"},
+    {"website": " - Design Process", "weblink": "http://issuu.com/studiowangfei/docs/linkedin_75dpi"}],
+  "story": "LinkedIn is a network of over 380 million professionals. However, sometimes when members are happy in their current positions, they become dormant users and choose not to spend their time on LinkedIn. LinkedIn Welcome-Back Portal provides a fresh, simple and immersive landing experience for a dormant user who is returning after 3+ months. The portal page is designed to help dormant users skip the overwhelming information and re-engage with LinkedIn's functions quickly, accurately and effortlessly.",
+  "scrollDown": " to see the design process, high-fidelity mock-ups and prototype."
   },
   {
   "name": "Another Taobao Village 2",
@@ -34,7 +48,7 @@ var projectData = [
   "projectUrl": "taobao_2.html",
   "imgNum": 3,
   "imgUrl": "../img/project/taobao_2/",
-  "scrollDownValue": 960,
+  "scrollDownValue": 640,
   "relatedLinks": [
     {"website": " - Taobao.com", "weblink": "http://www.taobao.com"},
     {"website": " - Design Process", "weblink": "http://issuu.com/studiowangfei/docs/taobao_village"}],
@@ -48,7 +62,7 @@ var projectData = [
   "projectUrl": "nycsub.html",
   "imgNum": 11,
   "imgUrl": "../img/project/nycsub/",
-  "scrollDownValue": 980,
+  "scrollDownValue": 640,
   "relatedLinks": [
     {"website": " - MTA New York City", "weblink": "http://web.mta.info/nyct/facts/ridership/"},
     {"website": " - Design Process", "weblink": "http://issuu.com/studiowangfei/docs/nyc_readingscape"}
@@ -63,7 +77,7 @@ var projectData = [
   "projectUrl": "webframe.html",
   "imgNum": 2,
   "imgUrl": "../img/project/webframe/",
-  "scrollDownValue": 980,
+  "scrollDownValue": 640,
   "relatedLinks": [
     {"website": " - studiowangfei.com", "weblink": "http://www.studiowangfei.com"},
     {"website": " - dev code on GitHub", "weblink": "https://github.com/studiowangfei/React_studiowangfei.com"}],
@@ -77,7 +91,7 @@ var projectData = [
   "projectUrl": "taobao.html",
   "imgNum": 5,
   "imgUrl": "../img/project/taobao/",
-  "scrollDownValue": 800,
+  "scrollDownValue": 640,
   "relatedLinks": [
     {"website": " - Alibaba AliResearch", "weblink": "http://www.aliresearch.com"},
     {"website": " - Taobao.com", "weblink": "http://www.taobao.com"}],

@@ -61,6 +61,7 @@
 .feature_regular img{
   width: 95%;
   margin: 0 2.5%;
+  margin-bottom: 64px;
 }
 
 #linkNodes {
@@ -1496,5 +1497,10 @@
 }
 
 
+/* linkedin */
 
+.linkedin_prototype_container{
+  width: 840px;
+  margin: 0 auto;
+}
 
