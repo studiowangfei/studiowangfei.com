@@ -132,6 +132,7 @@ html, body {
   position: relative;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  overflow: hidden;
 }
 
 /* line 35, ../../sass/index.scss */
@@ -145,6 +146,7 @@ html, body {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   position: relative;
+  overflow: hidden;
 }
 
 .top-placeholder {
