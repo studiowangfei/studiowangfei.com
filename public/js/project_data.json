@@ -73,7 +73,7 @@ var projectData = [
   "year": 2013,
   "type": "Data",
   "projectUrl": "nycsub.html",
-  "imgNum": 11,
+  "imgNum": 8,
   "imgUrl": "../img/project/nycsub/",
   "scrollDownValue": 640,
   "relatedLinks": [

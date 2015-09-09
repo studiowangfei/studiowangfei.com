@@ -703,6 +703,11 @@
 
 /*nycsub*/
 
+.nycsub_feature_regular img{
+  width: 66.7%;
+  margin: 0 16.65%;
+}
+
 #nycsub_map-canvas {
   width: 100%;
   top: 0;
@@ -1510,7 +1515,7 @@
 #zoom_option_title{
   font-size: 18px;
   font-weight: 400;
-  margin-top: 32px;
+  margin-top: 96px;
 }
 
 .zoom_left_right{
@@ -1522,27 +1527,16 @@
   -webkit-justify-content: space-between;
   justify-content: space-between;
   -ms-justify-content: space-between;
-  flex-flow: row wrap;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
 }
 
 .zoom_left_right img{
+  position: relative;
+  width: 46.875%;
+  height: 63.85%;
+}
+
+.zoom_mockup_large img{
   width: 100%;
-}
-
-.zoom_left{
-  width: 65%;
-}
-
-.zoom_right, .zoom_right_2{
-  width: 30%;
-}
-
-.zoom_right img{
   margin-bottom: 64px;
 }
 
-.zoom_right_2 img{
-  margin-bottom: 38px;
-}
