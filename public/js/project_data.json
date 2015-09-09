@@ -42,6 +42,19 @@ var projectData = [
   "scrollDown": " to see the design process, high-fidelity mock-ups and prototype."
   },
   {
+  "name": "Zoom Video New Home-Landing",
+  "year": 2015,
+  "type": "Product",
+  "projectUrl": "zoom.html",
+  "imgNum": 3,
+  "imgUrl": "../img/project/zoom/",
+  "scrollDownValue": 640,
+  "relatedLinks": [
+    {"website": " - Zoom Video", "weblink": "http://www.zoom.us"}],
+  "story": "Zoom unifies cloud video conferencing, instant online meetings, and group messaging into one simple and powerful platform. Serving millions of users on different platforms with different meeting requirements, Zoom's product lines and subscribed plans have expanded aggresively. The old Zoom home landing page was designed to accmodate its core product but failed to provide clear and quick accesses to the new products. The re-design of Zoom's home-landing is to explore a synthetic solution for its ever expanding product lines and plans.",
+  "scrollDown": " to see the design process and high-fidelity mock-ups."
+  },
+  {
   "name": "Another Taobao Village 2",
   "year": 2015,
   "type": "Data",
@@ -71,6 +84,19 @@ var projectData = [
   "scrollDown": " to see the design process and ridership-readership interactives."
   },
   {
+  "name": "San Francisco POPOS",
+  "year": 2015,
+  "type": "Data",
+  "projectUrl": "sfpopos.html",
+  "imgNum": 10,
+  "imgUrl": "../img/project/sfpopos/",
+  "scrollDownValue": 720,
+  "relatedLinks": [
+    {"website": " - ESRL", "weblink": "http://www.esrl.noaa.gov/gmd/grad/solcalc/azel"}],
+  "story": "POPOS stands for Privately Owned Public Open Space. San Francisco City currently owns over 50 POPOS and people usually go to them to enjoy their lunch. Other than its environmental design, another important parameter that decides a POPO's popularity is its sunlight condition during 11:00 to 14:00 every weekday. This project designs a real-time data visualization that maps out all San Francisco POPOS' locations and their shadow conditions at 11:00, 12:00, 13:00 and 14:00. People can use this map to choose the POPO they want to visit based on its location, rating, sunshine/shadow and quality etc. This project is currently under development with OpenStreetMap API.",
+  "scrollDown": " to see the design process and watch the dynamic shadow visualization."
+  },
+  {
   "name": "Studiowangfei.com v1.0",
   "year": 2015,
   "type": "website framework",
@@ -97,19 +123,6 @@ var projectData = [
     {"website": " - Taobao.com", "weblink": "http://www.taobao.com"}],
   "story": "Another Taobao Village is a collaborative project between Alibaba AliResearch and Studiowangfei. It's trying to re-tell the story of Taobao.com, which was initiated by Alibaba Group in 2003 and now the largest e-commerce platform in the world. By 2014, 21% of Taobao online store owners are living in rural areas and there are over 200 Taobao villages across China. This design delivers a fresh and playable format of data visualization and story-telling for Taobao e-commerce platform. The Taobao story poker sets were printed over 3000+ physical copies and out of stock within 5 hours after the opening of 2014 Taobao E-commerce Conference.",
   "scrollDown": " to see the design process and play with the poker game sets."
-  },
-  {
-  "name": "San Francisco POPOS",
-  "year": 2015,
-  "type": "Data",
-  "projectUrl": "sfpopos.html",
-  "imgNum": 10,
-  "imgUrl": "../img/project/sfpopos/",
-  "scrollDownValue": 720,
-  "relatedLinks": [
-    {"website": " - ESRL", "weblink": "http://www.esrl.noaa.gov/gmd/grad/solcalc/azel"}],
-  "story": "POPOS stands for Privately Owned Public Open Space. San Francisco City currently owns over 50 POPOS and people usually go to them to enjoy their lunch. Other than its environmental design, another important parameter that decides a POPO's popularity is its sunlight condition during 11:00 to 14:00 every weekday. This project designs a real-time data visualization that maps out all San Francisco POPOS' locations and their shadow conditions at 11:00, 12:00, 13:00 and 14:00. People can use this map to choose the POPO they want to visit based on its location, rating, sunshine/shadow and quality etc. This project is currently under development.",
-  "scrollDown": " to see the design process and watch the dynamic shadow visualization."
   },
   {
   "name": "Inside x Insight",

@@ -6,7 +6,7 @@
   font-size: 24px;
   font-weight: 500;
   color: black;
-	padding-bottom: 24px;
+	padding-bottom: 36px;
   text-align: left;
 }
 
@@ -37,7 +37,7 @@
 
 /* container for special stuff of each project*/
 .feature_container {
-  padding-top: 0px;
+  padding-top: 64px;
   height: auto;
 }
 
@@ -1504,3 +1504,45 @@
   margin: 0 auto;
 }
 
+
+
+/* zoom */
+#zoom_option_title{
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 32px;
+}
+
+.zoom_left_right{
+  position: relative;
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  display: -ms-flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -ms-justify-content: space-between;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+}
+
+.zoom_left_right img{
+  width: 100%;
+}
+
+.zoom_left{
+  width: 65%;
+}
+
+.zoom_right, .zoom_right_2{
+  width: 30%;
+}
+
+.zoom_right img{
+  margin-bottom: 64px;
+}
+
+.zoom_right_2 img{
+  margin-bottom: 38px;
+}
