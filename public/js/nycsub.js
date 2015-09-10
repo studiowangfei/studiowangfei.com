@@ -10,7 +10,7 @@ $(document).ready(function(){
   $(window).scroll(function(){
     var scrollHeight = $(window).scrollTop();
     var nycsub_flipper_height = $('.nycsub').height();
-    if(scrollHeight>2320 && scrollHeight<2180+nycsub_flipper_height){
+    if(scrollHeight>4120 && scrollHeight<3980+nycsub_flipper_height){
       $('.nycsub_lines').fadeIn('slow');
     }else{
       $('.nycsub_lines').fadeOut('slow');

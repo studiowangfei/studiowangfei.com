@@ -31,8 +31,7 @@
             <p style="text-align: left; margin-left: 25%">3. Make data resonates with subway riders
             <p style="text-align: left; margin-left: 25%">4. An interactive cultivates public's interests in data
           </div>
-
-          <div class="nycsub_feature_regular">
+          <div class="feature_regular">
             <img src="../img/project/nycsub/nycsub_context.jpg" />
           </div>
 
@@ -43,26 +42,58 @@
           <div class="feature_descript">
             A key observation of NYC subway riders is: there are people reading books, news, tweets everythere and all the time along the subway. Riding takes time, and reading kills time. Taking this perspective, the design was then focused on riding data and reading behaviors in the subway system.
           </div>
-
           <div class="nycsub_feature_regular">
             <img src="../img/project/nycsub/nycsub_reading.jpg" />
           </div>
 
-
           <div class="feature_title">
-            Read in move. Data-micro.
+            Readership.
+            <br>A subway rider's reading data.
           </div>
           <div class="feature_descript">
-            The project is comprised of two parts to represent data-micro and data-macro respectively. Data-micro is a public survey tracking subway readers - who constitute a fairly amount of daily commuters - and generating personal travelling maps and stories of their reading behaviors.
+            By diving into the individual rider-reader's reading behaviors and tracking their traveling maps (a research survey with participant's permission), a comprehensive handbook was designed to portray the NYC underground riding and reading-scapes.
+          </div>
+          <div class="feature_regular">
+            <img src="../img/project/nycsub/nycsub_passenger_book.jpg" />
+          </div>
+
+          <iframe width="740" height="480" style="position: relative; margin: 64px 110px" src="http://e.issuu.com/embed.html#7910534/15321930" frameborder="0" allowfullscreen="1">
+          </iframe>
+
+          <div class="feature_title">
+            Readership stories.
+            <p>Data-micro.
+          </div>
+          <div class="feature_descript">
+            The story-telling of rider-reader's commuting experience is through an interactive design of filtered groups of each subway line, which renders the concept of data-micro.
+            <br></br>
+            <p>Click rider-reader circles and filter circles on the left to explore the interactive.
           </div>
           <div class="nycsub">
           </div>
+
           <div class="feature_title">
-            Ridership mapped. Data-macro.
+          Ridership.
+            <br>The crowd in each station and each line.
+          </div>
           <div class="feature_descript">
-            The second part is a map-based visualization of weekday, weekend and annual riderships of every New York subway stations, which represents the movement of subway riders as a whole across New York city.
+            The large dataset collected by ticket-checking machines is sorted and visualized to discover the travelling pattern of subway riders as a whole. The area of each circle represents the number of people entering that station and each subway line is color-coded by MTA NYC Subway's design guideline.
           </div>
+          <div class="feature_regular">
+            <img src="../img/project/nycsub/nycsub_ridership_each.jpg" />
           </div>
+          <div class="feature_regular">
+            <img src="../img/project/nycsub/nycsub_ridership_year.jpg" />
+          </div>
+
+          <div class="feature_title">
+            Ridership interactive map. Data-macro.
+          <div class="feature_descript">
+            Hooked with geo-data of subway stations, a map-based visualization of weekday, weekend and annual riderships is designed to showcase the movement of subway riders as a whole across New York City.
+            <br></br>
+            <p>Zoom in and out to see each line's ridership pattern. Click on circles to see each station's ridership numbers.
+          </div>
+
           <div id="nycsub_map-canvas">
           </div>
           <div class="nycsub_map_scale">
@@ -75,10 +106,15 @@
               <p id="nycsub_map_scale_wknd">Weekend</p>
             </div>
           </div>
-          <div class="nycsub_lines_circle" id="map_fullscreen">◀ &nbsp;▶
+          <div class="nycsub_lines_circle" id="map_fullscreen">
+            <p>◀ &nbsp;▶</p>
           </div>
+
         </div>
 
+        <!--customized part ends-->
+
+        <!--floating control filter-->
         <div class="nycsub_lines">
           <div class="nycsub_lines_circle" id="nycsub_123">1 2 3
           </div>
@@ -98,10 +134,8 @@
           </div>
           <div class="nycsub_lines_circle" id="nycsub_all">ALL
           </div>
-          <div class="nycsub_lines_circle" id="nycsub_down">▼
-          </div>
         </div>
-        <!--customized part ends-->
+
 
         <div id="bottomContainer"></div>
       </div>

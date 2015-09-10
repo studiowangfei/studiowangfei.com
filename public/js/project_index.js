@@ -15,9 +15,9 @@ $(document).ready(function(){
     }else if(i===3){
       projectUrl="project/zoom.html"
     }else if(i===4){
-      projectUrl="project/taobao_2.html"
-    }else if(i===5){
       projectUrl="project/nycsub.html"
+    }else if(i===5){
+      projectUrl="project/taobao_2.html"
     }else if(i===6){
       projectUrl="project/sfpopos.html"
     }else if(i===7){

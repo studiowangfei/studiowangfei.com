@@ -55,6 +55,21 @@ var projectData = [
   "scrollDown": " to see the design process and high-fidelity mock-ups."
   },
   {
+  "name": "New York City Sub Rider-Readers",
+  "year": 2013,
+  "type": "Data",
+  "projectUrl": "nycsub.html",
+  "imgNum": 4,
+  "imgUrl": "../img/project/nycsub/",
+  "scrollDownValue": 640,
+  "relatedLinks": [
+    {"website": " - MTA New York City", "weblink": "http://web.mta.info/nyct/facts/ridership/"},
+    {"website": " - Design Process", "weblink": "http://issuu.com/studiowangfei/docs/nyc_readingscape"}
+  ],
+  "story": "MTA New York Subway serves over 5 million commuters everyday, and the ticket checking machines collect user's data 24/7. Using the dataset of NYC subway ridership in 2012 and a series of reading-pattern photographs, this project re-thinks about how to present complex data to the general public, how to make data sympathetic to people that are without data knowledge but curious about data, and how to bridge the data of \"whole\" and the data of \"one\". ",
+  "scrollDown": " to see the design process and ridership-readership interactives."
+  },
+  {
   "name": "Another Taobao Village 2",
   "year": 2015,
   "type": "Data",
@@ -69,31 +84,16 @@ var projectData = [
   "scrollDown": " to see the design process and Taobao village transaction map."
   },
   {
-  "name": "New York City Sub Rider-Readers",
-  "year": 2013,
-  "type": "Data",
-  "projectUrl": "nycsub.html",
-  "imgNum": 8,
-  "imgUrl": "../img/project/nycsub/",
-  "scrollDownValue": 640,
-  "relatedLinks": [
-    {"website": " - MTA New York City", "weblink": "http://web.mta.info/nyct/facts/ridership/"},
-    {"website": " - Design Process", "weblink": "http://issuu.com/studiowangfei/docs/nyc_readingscape"}
-  ],
-  "story": "MTA New York Subway serves over 5 million commuters everyday, and the ticket checking machines collect user's data 24/7. Using the dataset of NYC subway ridership in 2012 and a series of reading-pattern photographs, this project re-thinks about how to present complex data to the general public, how to make data sympathetic to people that are without data knowledge but curious about data, and how to bridge the data of \"whole\" and the data of \"one\". ",
-  "scrollDown": " to see the design process and ridership-readership interactives."
-  },
-  {
   "name": "San Francisco POPOS",
   "year": 2015,
   "type": "Data",
   "projectUrl": "sfpopos.html",
-  "imgNum": 10,
+  "imgNum": 4,
   "imgUrl": "../img/project/sfpopos/",
   "scrollDownValue": 720,
   "relatedLinks": [
     {"website": " - ESRL", "weblink": "http://www.esrl.noaa.gov/gmd/grad/solcalc/azel"}],
-  "story": "POPOS stands for Privately Owned Public Open Space. San Francisco City currently owns over 50 POPOS and people usually go to them to enjoy their lunch. Other than its environmental design, another important parameter that decides a POPO's popularity is its sunlight condition during 11:00 to 14:00 every weekday. This project designs a real-time data visualization that maps out all San Francisco POPOS' locations and their shadow conditions at 11:00, 12:00, 13:00 and 14:00. People can use this map to choose the POPO they want to visit based on its location, rating, sunshine/shadow and quality etc. This project is currently under development with OpenStreetMap API.",
+  "story": "POPOS stands for Privately Owned Public Open Space. San Francisco City currently owns over 70 POPOS and people usually go to them to enjoy their lunch. Other than its environmental design, another important parameter that decides a POPO's popularity is its sunlight condition during 11:00 to 14:00 every weekday. This project designs a data visualization that maps out all San Francisco POPOS' locations and their shadow conditions at 11:00, 12:00, 13:00 and 14:00. People can use this map to choose the POPO they want to visit based on its location, rating, sunshine/shadow and quality etc. This project is currently under development with OpenStreetMap API.",
   "scrollDown": " to see the design process and watch the dynamic shadow visualization."
   },
   {

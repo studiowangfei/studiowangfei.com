@@ -1,1 +1,108 @@
-<!DOCTYPE html> <html> <head> <title>Studiowangfei | Project</title> <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> <meta name=viewport content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="../css/core.css"> <link rel="stylesheet" href="../css/project_page.css"> <link rel="icon" href="../img/icon.png"> <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><script src="https://fb.me/react-0.13.3.min.js"></script></head><body> <div id="topContainer"></div> <div class="outer-container"> <div class="main-container"> <div class="project_name">Another Taobao Village 2</div> <div id="projectTitleContainer"></div> <div id="projectContainer"></div>  <div class="feature_container"> <div class="feature_title"> Buying from villages, selling to cities. <br>Transaction mapped. </div> <div class="feature_descript"> The map visualized all Taobao shipments from top five Taobao villages during 2013.11.11 E-commerce Fest. Seller villages are marked as blue circles while buyer cities as grey, the size of transaction (the number of parcels) is measured by the area of each circle. Different colors represents different villages, and the linewidth varies based on the size of that single transaction. </div> <div class="taobao_map_text"> <div>Taobao Villages <br>(store number ~1500)</div> <div>Taobao Villages <br>(store number ~100)</div> <div>City Buyers <br>(items bought ~7500)</div> <div>City Buyers <br>(items bought ~500)</div> <div>Transaction <br>(parcels shipped ~1000)</div> <div>Transaction <br>(parcels shipped ~200)</div> </div> <div class="taobao_map_label"> <div class="taobao_map_circle" id="taobao_village_circle_1"> </div> <div class="taobao_map_circle" id="taobao_village_circle_2"> </div> <div class="taobao_map_circle" id="taobao_city_circle_1"> </div> <div class="taobao_map_circle" id="taobao_city_circle_2"> </div> <div class="taobao_map_line" id="taobao_transaction_line_1"> </div> <div class="taobao_map_line" id="taobao_transaction_line_2"> </div> </div> <div id="taobao_map_canvas_1"> </div> <div id="taobao_map_canvas_2"> </div> <div class="taobao_double11_container"> </div> </div>  <div id="bottomContainer"></div> </div> </div> <div id="projectSlideContainer"></div> <script src="../js/project_data.json"></script><script src="../js/core_framework.js"></script><script src="../js/project_framework.js"></script><script src="../js/taobao_data.min.json"></script><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj-qZOU9FxF-Xj7imTNeFaRDOA8vk7Q_8"></script><script src="../js/taobao_2.js"></script></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Studiowangfei | Project</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="../css/core.css" />
+    <link type="text/css" rel="stylesheet" href="../css/project_page.css" />
+    <link rel="icon" href="../img/icon.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://fb.me/react-0.13.3.min.js"></script>
+  </head>
+  <body>
+    <div id="topContainer"></div>
+    <div class="outer-container">
+      <div class="main-container">
+        <div class="project_name">Another Taobao Village 2</div>
+        <div id="projectTitleContainer"></div>
+        <div id="projectContainer"></div>
+
+        <!--customized part-->
+        <div class="feature_container">
+          <div class="feature_title">
+            Design Challenge
+          </div>
+          <div class="feature_descript">
+            This project was designed based on transaction data of Alibaba's Taobao.com (one of the largest e-commerce platforms in the world with over 6 million online store owners) during 2013.11.11 E-commerce Fest. The focus was to find out the transaction pattern across mainland China and the connections between city buyers and village sellers. Main design challenges include:
+            <br></br>
+            <p style="text-align: left; margin-left: 25%">1. Explore the e-commerce villages which have contributed to the major transactions
+            <p style="text-align: left; margin-left: 25%">2. Use the data to connect the villages and cities
+            <p style="text-align: left; margin-left: 25%">3. Design data viz tools for Taobao store oweners to optimize their logistics
+          </div>
+
+          <div class="feature_title">
+            Taobao.com in the countryside.
+            <p>Store owners and their products.
+          </div>
+          <div class="feature_descript">
+            By 2014, one in five Taobao sellers are living in China's rural areas and there are over 200 Taobao villages across China. Technology and E-commerce are reshaping the relationship between city and countryside. Since the economic crisis of 2008, more and more people choose to stay in their home villages and use internet to change their lives.
+          </div>
+          <div class="feature_regular">
+            <img src="../img/project/taobao_2/taobao_owner.jpg" />
+          </div>
+
+          <div class="feature_title">
+            From village to city.
+          </div>
+          <div class="feature_descript">
+            During the period of E-commerce Fest, thousands of products were shipped from the e-commerce villages through online stores everyday. Most of buyers are living in cities. The e-commerce builds a mutual beneficial partnership between rural residents and city dwellers.
+          </div>
+          <div class="feature_regular">
+            <img src="../img/project/taobao_2/taobao_store_map.jpg" />
+          </div>
+
+          <div class="feature_title">
+            Connecting cities and villages.
+            <br>Transactions mapped.</br>
+          </div>
+          <div class="feature_descript">
+            The map visualized all Taobao shipments from top five e-commerce villages during 2013.11.11 E-commerce Fest. Seller villages are marked as blue circles while buyer cities as grey, the size of transaction (the number of parcels in total) was measured by the area of each circle. Different colors represents different villages' transactions, and the linewidth represents the size of that single transaction.
+            <br></br>
+            <p>Zoom in and out to explore the transaction pattern. Hover over connecting lines to see transaction details.
+          </div>
+
+          <div class="taobao_map_text">
+            <div>Taobao Villages <br>(store number ~1500)</div>
+            <div>Taobao Villages <br>(store number ~100)</div>
+            <div>City Buyers <br>(items bought ~7500)</div>
+            <div>City Buyers <br>(items bought ~500)</div>
+            <div>Transaction <br>(parcels shipped ~1000)</div>
+            <div>Transaction <br>(parcels shipped ~200)</div>
+          </div>
+          <div class="taobao_map_label">
+            <div class="taobao_map_circle" id="taobao_village_circle_1">
+            </div>
+            <div class="taobao_map_circle" id="taobao_village_circle_2">
+            </div>
+            <div class="taobao_map_circle" id="taobao_city_circle_1">
+            </div>
+            <div class="taobao_map_circle" id="taobao_city_circle_2">
+            </div>
+            <div class="taobao_map_line" id="taobao_transaction_line_1">
+            </div>
+            <div class="taobao_map_line" id="taobao_transaction_line_2">
+            </div>
+          </div>
+          <div id="taobao_map_canvas_1">
+          </div>
+          <div id="taobao_map_canvas_2">
+          </div>
+          <div class="taobao_double11_container">
+          </div>
+        </div>
+        <!--customized part ends-->
+
+        <div id="bottomContainer"></div>
+      </div>
+    </div>
+    <div id="projectSlideContainer"></div>
+
+    <script src="../js/project_data.json"></script>
+    <script src="../js/core_framework.js"></script>
+    <script src="../js/project_framework.js"></script>
+    <script src="../js/taobao_data.min.json"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj-qZOU9FxF-Xj7imTNeFaRDOA8vk7Q_8"></script>
+    <script src="../js/taobao_2.js"></script>
+  </body>
+</html>
