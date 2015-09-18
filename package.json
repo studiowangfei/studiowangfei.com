@@ -1,6 +1,6 @@
 {
   "name": "studiowangfei.com",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Fei Wang Personal Website",
   "main": "server.js",
   "scripts": {
