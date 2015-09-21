@@ -223,7 +223,7 @@ $(document).ready(function(){
       .css('text-align', 'left');
 
       $('.feature_descript')
-      .css('width', '100%');
+      .css('width', '85%');
 
     }else{
 
@@ -241,7 +241,7 @@ $(document).ready(function(){
       .css('margin', '0 auto 64px auto');
 
       $('.feature_descript')
-      .css('width', containerWidth*1 + 'px');
+      .css('width', containerWidth*0.85 + 'px');
     }
   }
 
