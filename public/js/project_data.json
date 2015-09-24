@@ -27,7 +27,7 @@ var projectData = [
   "scrollDown": " to see the user research, design process and high-fidelity mockups."
   },
   {
-  "name": "SOM BIM Data Dashboard",
+  "name": "BIM Data Dashboard",
   "year": 2014,
   "type": "application",
   "projectUrl": "sombim.html",

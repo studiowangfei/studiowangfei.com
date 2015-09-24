@@ -4,7 +4,7 @@
 var projectList = [
   "Mylio Pair",
   "Blooday",
-  "SOM BIM Data Dashboard",
+  "BIM Data Dashboard",
   "Zoom Video New Home-Landing",
   "LinkedIn Welcome-Back Portal",
   "New York City Sub Rider-Readers",
