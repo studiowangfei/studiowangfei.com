@@ -1,1 +1,250 @@
-var projectData=[{name:"Mylio Pair",year:2015,type:"application",projectUrl:"mylio.html",imgNum:4,imgUrl:"../img/project/mylio/",scrollDownValue:700,relatedLinks:[{website:" - Mylio",weblink:"http://www.mylio.com"},{website:" - Design Process",weblink:"http://issuu.com/studiowangfei/docs/mylio_process"}],story:"Mylio is the next-generation photo management tool that organizes, edits and syncs your photos across all devices. It provides multiple metrics sorting photos automatically based on date, rating, size etc. One user problem of automatic sorting is that the computer can not time-sequence photos without enough or correct EXIF data. Mylio Pair is a new sorting feature that helps you to time-sequence all of your old photos correctly, efficiently and enjoyably.",scrollDown:" to see the design process, user flow and prototype."},{name:"Blooday",year:2015,type:"Product",projectUrl:"blooday.html",imgNum:3,imgUrl:"../img/project/blooday/",scrollDownValue:700,relatedLinks:[],story:"Blooday modernizes the way you receive and view your blood test result. It's instant, accurate, comprehensive, and secured. No matter you log in for a quick conclusion or dive in for a full-detail explanation, Blooday delivers right information in right places at right time. It helps you track your blood test records, keeps you in touch with your doctor, and motivates you to improve your health. Blooday is here to keep you informed and healthy.",scrollDown:" to see the user research, design process and high-fidelity mockups."},{name:"BIM Data Dashboard",year:2014,type:"application",projectUrl:"sombim.html",imgNum:3,imgUrl:"../img/project/sombim/",scrollDownValue:720,relatedLinks:[{website:" - SOM LLP.",weblink:"http://www.som.com"},{website:" - Design Process",weblink:"http://issuu.com/studiowangfei/docs/bim_process"}],story:"SOM BIM Data is a web-based dashboard for managing and collaborating on complex and large-scale building projects. It helps designers, engineers, and project managers to track, sync and analyze the data such as builing footprint, energy saving and consumption and construction cost from BIM (Building information model). Different from traditional CMS, the project dashboard is focused on real-time data. It's envisioned and designed as a data-exchanging and tunneling platform for all players working on the same project.",scrollDown:" to see the design process, information architecture and mockups. All numbers here are faked due to NDA."},{name:"Zoom Video New Home-Landing",year:2015,type:"Product",projectUrl:"zoom.html",imgNum:3,imgUrl:"../img/project/zoom/",scrollDownValue:700,relatedLinks:[{website:" - Zoom Video",weblink:"http://www.zoom.us"}],story:"Zoom unifies cloud video conferencing, instant online meetings, and group messaging into one simple and powerful platform. Serving millions of users on different platforms with different meeting requirements, Zoom's product lines and subscribed plans have expanded aggresively. The old Zoom home landing page was designed to accmodate its core product but failed to provide clear and quick accesses to the new products. The re-design of Zoom's home-landing is to explore a synthetic solution for its ever expanding product lines and plans.",scrollDown:" to see the design process and high-fidelity mockups."},{name:"LinkedIn Welcome-Back Portal",year:2015,type:"Product",projectUrl:"linkedin.html",imgNum:3,imgUrl:"../img/project/linkedin/",scrollDownValue:700,relatedLinks:[{website:" - LinkedIn",weblink:"http://www.linkedin.com"},{website:" - Design Process",weblink:"http://issuu.com/studiowangfei/docs/linkedin_75dpi"}],story:"LinkedIn is a network of over 380 million professionals. However, sometimes when members are happy in their current positions, they become dormant users and choose not to spend their time on LinkedIn. LinkedIn Welcome-Back Portal provides a fresh, simple and immersive landing experience for a dormant user who is returning after 3+ months. The portal page is designed to help dormant users skip the overwhelming information and re-engage with LinkedIn's functions quickly, accurately and effortlessly.",scrollDown:" to see the design process, high-fidelity mockups and prototype."},{name:"New York City Sub Rider-Readers",year:2013,type:"Data",projectUrl:"nycsub.html",imgNum:4,imgUrl:"../img/project/nycsub/",scrollDownValue:700,relatedLinks:[{website:" - MTA New York City",weblink:"http://web.mta.info/nyct/facts/ridership/"},{website:" - Design Process",weblink:"http://issuu.com/studiowangfei/docs/nyc_readingscape"}],story:'MTA New York Subway serves over 5 million commuters everyday, and the ticket checking machines collect user\'s data 24/7. Using the dataset of NYC subway ridership in 2012 and a series of reading-pattern photographs, this project re-thinks about how to present complex data to the general public, how to make data sympathetic to people that are without data knowledge but curious about data, and how to bridge the data of "whole" and the data of "one". ',scrollDown:" to see the design process and ridership-readership interactives."},{name:"Another Taobao Village 2",year:2015,type:"Data",projectUrl:"taobao_2.html",imgNum:3,imgUrl:"../img/project/taobao_2/",scrollDownValue:720,relatedLinks:[{website:" - Taobao.com",weblink:"http://www.taobao.com"},{website:" - Design Process",weblink:"http://issuu.com/studiowangfei/docs/taobao_village"}],story:"Another Taobao Village is a collaborative project between Alibaba AliResearch and Studiowangfei. It's trying to re-tell the story of Taobao.com, which was initiated by Alibaba Group in 2003 and now the largest e-commerce platform in the world. By 2014, 21% of Taobao online store owners are living in rural areas and there are over 200 Taobao villages across China. The design challenge is to deliver an interactive data tool showing the e-commerce transactions between cities and villages during Taobao E-commerce Fest in 2013. Due to NDA, only a part of the project is presented here and all transaction data was masked beforehand.",scrollDown:" to see the design process and Taobao village transaction map."},{name:"San Francisco POPOS",year:2015,type:"Data",projectUrl:"sfpopos.html",imgNum:4,imgUrl:"../img/project/sfpopos/",scrollDownValue:720,relatedLinks:[{website:" - ESRL",weblink:"http://www.esrl.noaa.gov/gmd/grad/solcalc/azel"}],story:"POPOS stands for Privately Owned Public Open Space. San Francisco City currently owns over 70 POPOS and people usually go to them to enjoy their lunch. Other than its environmental design, another important parameter that decides a POPO's popularity is its sunlight condition during 11:00 to 14:00 every weekday. This project designs a data visualization that maps out all San Francisco POPOS' locations and their shadow conditions at 11:00, 12:00, 13:00 and 14:00. People can use this map to choose the POPO they want to visit based on its location, rating, sunshine/shadow and quality etc. This project is currently under development with OpenStreetMap API.",scrollDown:" to see the design process and watch the dynamic shadow visualization."},{name:"Studiowangfei.com v1.0",year:2015,type:"website framework",projectUrl:"webframe.html",imgNum:3,imgUrl:"../img/project/webframe/",scrollDownValue:700,relatedLinks:[{website:" - studiowangfei.com",weblink:"http://www.studiowangfei.com"},{website:" - dev code on GitHub",weblink:"https://github.com/studiowangfei/React_studiowangfei.com"}],story:"Studiowangfei.com is my personal website and showcases some design and research projects. I designed and built it from scratch with the concept of web-components. By tweaking the typologies of components, studiowangfei.com v1.0 was designed as a flexible framework that accomodates both standardization and customization. All project data is seperated as a JSON feed and hooked back with web-components. What you see here is the framework of the first release of this site, by now it probably has evolved.",scrollDown:" to see the design process and component wireframes and mockups."},{name:"Another Taobao Village 1",year:2014,type:"Data",projectUrl:"taobao.html",imgNum:3,imgUrl:"../img/project/taobao/",scrollDownValue:740,relatedLinks:[{website:" - Alibaba AliResearch",weblink:"http://www.aliresearch.com"},{website:" - Taobao.com",weblink:"http://www.taobao.com"}],story:"Another Taobao Village is a collaborative project between Alibaba AliResearch and Studiowangfei. It's trying to re-tell the story of Taobao.com, which was initiated by Alibaba Group in 2003 and now the largest e-commerce platform in the world. By 2014, 21% of Taobao online store owners are living in rural areas and there are over 200 Taobao villages across China. This design delivers a fresh and playable format of data visualization and story-telling for Taobao e-commerce platform. The Taobao story poker sets were printed 3000+ physical copies and out of stock within 5 hours after the opening of 2014 Taobao E-commerce Conference.",scrollDown:" to see the design process and play with the poker game sets."},{name:"Inside x Insight",year:2014,type:"Data",projectUrl:"inin.html",imgNum:6,imgUrl:"../img/project/inin/",scrollDownValue:0,relatedLinks:[{website:" - AliResearch",weblink:"http://www.aliresearch.com"},{website:" - Stamen Design",weblink:"http://www.stamen.com"},{website:" - Xiaoji",weblink:"http://xiaoji-chen.com"}],story:"Data is neutral, dry and messy, while information is political, palatable and organized. Today we are using tons of raw data to manufacture information products. Rather than focusing on news that attracts short attention, Inside x Insight is deciphering events that awaits long digestion. As a data-driven media, Inside x Insight covers politics, technology, economy, culture and environment using multiple open-source and authorized data. The product is currently embedded in the largest Chinese IM tool WeChat platform and has 2000+ active subscribers, our collaborators and contributors include AliResearch, Stamen Design, Power Station of Art, Xiaoji Chen etc.",scrollDown:null},{name:"W@RK",year:2013,type:"Strategy",projectUrl:"work.html",imgNum:16,imgUrl:"../img/project/work/",scrollDownValue:640,relatedLinks:[{website:" - IDEAS CITY",weblink:"http://www.newmuseum.org/ideascity/about"}],story:"W@RK is a design and business proposal rethinking working environment in the context of freelancing. It takes New York City - which has over 40,000 freelancers - as a testing site to conduct mapping research, street interviews, spatial documentation and design experiments. W@RK proposes a new comprehensive co-working model that intergrates sharing economy, dynamic pricing, spatial customization and social networking. Its ambition is simple and bold: Can a freelancer have an instant and productive co-working envrionment at a price of avg. $1/hour in New York City? W@RK was created by Fei Wang and Linsay May, with the support of Princeton University and the New Museum in New York. The project has been exhibited at the Bowery City Fest in 2013.",scrollDown:" to watch the stories of W@RK and play with the interactive spatial sections."},{name:"Another Leap",year:2014,type:"Exhibition",projectUrl:"anotherleap.html",imgNum:11,imgUrl:"../img/project/anotherleap/",scrollDownValue:2050,relatedLinks:[{website:" - Power Station of Art",weblink:"http://powerstationofart.com/"},{website:" - Princeton SoA",weblink:"https://soa.princeton.edu/#830"}],story:"Initiated by Power Station of Art in Shanghai, Another Leap is an exhibition showcasing interactive artworks in both physical and digital forms. Another Leap presents fifteen art pieces that range from social media action art to interactive robotic installations, and it's on show from Oct. 28th of 2014 to Mar. 8th of 2015 at Power Station of Art in Shanghai. Another Leap is co-curated by Fei Wang and Hong Pu, and the participants include: Xiaoji Chen, Rob MacKinnon, Kan Jia, Zhen Liu, Binyuan Li, Link, Shituzi, Another Inc., Liao Li, Hao Ruan, LYCS Architecture, Wei Wang, Harry Wei, Han Dong, Willem Boning, Xing Yan, AliResearch, Ying Yu.",scrollDown:" to read the exhibition manifesto and browse artworks."},{name:"Urban v.s. Rural of China 1979- ",year:2012,type:"Data",projectUrl:"urbanrural.html",imgNum:3,imgUrl:"../img/project/urbanrural/",scrollDownValue:600,relatedLinks:[{website:" - National Bureau of Statistics of PRC",weblink:"http://www.stats.gov.cn/english/"}],story:"Everyone is talking about the urbanization of China. People say this is the fastest urbanization in human history, but how fast? People say there are many rural residents having moved into cities, but how many? People say the income gap between urban and rural is becoming really big, but how big? The project visualizes Chinese urbanization using data sets including population, income per capita, housing, etc. Together with the important policies implemented by Chinese government and changes initiated by other social entities such as Alibaba's Taobao e-commerce platform, the dry data sets become interrelated and portrays the urbanization of China in a broader and digestible perspective.",scrollDown:" to play with the interactive data and info layers."},{name:"Instant Impressionism",year:2010,type:"Urbanism",projectUrl:"impressionism.html",imgNum:10,imgUrl:"../img/project/impressionism/",scrollDownValue:680,relatedLinks:[{website:" - VELUX",weblink:"http://iva.velux.com/about_the_award/previous_awards/award_2010/winners_2010/hm4"}],story:"Inspired by Impressionism painter Claude Monet's Rouen Cathedral series, the project designs a new way to defamiliarize the experience of viewing city-scape in noisy and easily-forgotten urban context. Taking Beijing lightrail station as a testing case, a 1:20 installation was designed and fabricated based on certain daylight and viewing-distance conditions, and a 12-hour time-lapse renders how historical artistic styles can be celebrated with contemporary technology. The pixelized strategy is powered by current fabricating tools, i.e. multi-axis milling and 3D printing. Instant Impressionism received Honor Prize in 2010 VELUX design competition and had been exhibited in La Rochelle, France.",scrollDown:" to watch time-lapse in Beijing and the documentary in La Rochelle, France."},{name:"Holistic Realm",year:2010,type:"Urbanism",projectUrl:"holistic.html",imgNum:11,imgUrl:"../img/project/holistic/",scrollDownValue:0,relatedLinks:null,story:"Holistic Realm revists two traditional Chinese spatial typologies - the courtyard house and the garden- and synthesize them into a new urban morphology that deals with contemporary urban density and quality. The initial research is based on figure-ground method and fast prototyping of varied forms. The further design is forwarded through both 2D and 3D representational mediums. The final 1:200 physical model is made through laser-cut and origami folding of over 200 components. Holistic Realm received 1st Prize in 2011 Chengdu Biennale design competition, and Honor Prize from Design Awards of Architectural-Review Magazine in 2012. It was exhibited in the Garden City unit of 2011 Chengdu Biennale.",scrollDown:null},{name:"Draw It",year:2012,type:"Data",projectUrl:"drawit.html",imgNum:9,imgUrl:"../img/project/drawit/",scrollDownValue:0,relatedLinks:null,story:'"A good sketch is better than a long speech", quote from Napoléon. I make many drawings, most of them are architecture and urbanism related. Invented by Leon Alberti as a documentating and communicating tool in 1400s, architectural drawing take its own autonomy since architects no longer consider "built" as the only criteria of a project. It evolves with conceptual utopias, visual criticism, and pure aesthetics. As the productions of paperless and penless, Draw It conducts experiments with new medium and tools in order to create depth, hierachy, insight, knowledge and pleasure.',scrollDown:null},{name:"Closer",year:2012,type:"Photography",projectUrl:"closer.html",imgNum:24,imgUrl:"../img/project/closer/",scrollDownValue:0,relatedLinks:null,story:'Closer features some photographs I took from 2010 to now, spotted in different countries under different travelling circumstances. The project title "Closer" quoted from Robert Frank\'s "If your photographs aren\'t good enough, you\'re not close enough." Most of the works are done in streets, museums and wanderlusting sites, and they captured what was discovered behind banality of daily routine. In an age of instant shooting, Closer still tries to make every "click" count and to see even closer.',scrollDown:null},{}];
+var projectData = [
+  {
+  "name": "Mylio Pair",
+  "year": 2015,
+  "type": "application",
+  "projectUrl": "mylio.html",
+  "imgNum": 4,
+  "imgUrl": "../img/project/mylio/",
+  "scrollDownValue": 700,
+  "relatedLinks": [
+    {"website": " - Mylio", "weblink": "http://www.mylio.com"},
+    {"website": " - Design Process", "weblink": "http://issuu.com/studiowangfei/docs/mylio_process"}],
+  "story": "Mylio is the next-generation photo management tool that organizes, edits and syncs your photos across all devices. It provides multiple metrics sorting photos automatically based on date, rating, size etc. One user problem of automatic sorting is that the computer can not time-sequence photos without enough or correct EXIF data. Mylio Pair is a new sorting feature that helps you to time-sequence all of your old photos correctly, efficiently and enjoyably.",
+  "scrollDown": " to see the design process, user flow and prototype."
+  },
+  {
+  "name": "Blooday",
+  "year": 2015,
+  "type": "Product",
+  "projectUrl": "blooday.html",
+  "imgNum": 3,
+  "imgUrl": "../img/project/blooday/",
+  "scrollDownValue": 700,
+  "relatedLinks": [
+    ],
+  "story": "Blooday modernizes the way you receive and view your blood test result. It's instant, accurate, comprehensive, and secured. No matter you log in for a quick conclusion or dive in for a full-detail explanation, Blooday delivers right information in right places at right time. It helps you track your blood test records, keeps you in touch with your doctor, and motivates you to improve your health. Blooday is here to keep you informed and healthy.",
+  "scrollDown": " to see the user research, design process and high-fidelity mockups."
+  },
+  {
+  "name": "BIM Data Dashboard",
+  "year": 2014,
+  "type": "application",
+  "projectUrl": "sombim.html",
+  "imgNum": 3,
+  "imgUrl": "../img/project/sombim/",
+  "scrollDownValue": 720,
+  "relatedLinks": [
+    {"website": " - SOM LLP.", "weblink": "http://www.som.com"},
+    {"website": " - Design Process", "weblink": "http://issuu.com/studiowangfei/docs/bim_process"}],
+  "story": "SOM BIM Data is a web-based dashboard for managing and collaborating on complex and large-scale building projects. It helps designers, engineers, and project managers to track, sync and analyze the data such as builing footprint, energy saving and consumption and construction cost from BIM (Building information model). Different from traditional CMS, the project dashboard is focused on real-time data. It's envisioned and designed as a data-exchanging and tunneling platform for all players working on the same project.",
+  "scrollDown": " to see the design process, information architecture and mockups. All numbers here are faked due to NDA."
+  },
+  {
+  "name": "Zoom New Home-Landing",
+  "year": 2015,
+  "type": "Product",
+  "projectUrl": "zoom.html",
+  "imgNum": 3,
+  "imgUrl": "../img/project/zoom/",
+  "scrollDownValue": 700,
+  "relatedLinks": [
+    {"website": " - Zoom Communications", "weblink": "http://www.zoom.us"}],
+  "story": "Zoom unifies cloud video conferencing, instant online meetings, and group messaging into one simple and powerful platform. Serving millions of users on different platforms with different meeting requirements, Zoom's product lines and subscribed plans have expanded aggresively. The old Zoom home landing page was designed to accmodate its core product but failed to provide clear and quick accesses to the new products. The re-design of Zoom's home-landing is to explore a synthetic solution for its ever expanding product lines and plans.",
+  "scrollDown": " to see the design process and high-fidelity mockups."
+  },
+  {
+  "name": "LinkedIn Welcome-Back Portal",
+  "year": 2015,
+  "type": "Product",
+  "projectUrl": "linkedin.html",
+  "imgNum": 3,
+  "imgUrl": "../img/project/linkedin/",
+  "scrollDownValue": 700,
+  "relatedLinks": [
+    {"website": " - LinkedIn", "weblink": "http://www.linkedin.com"},
+    {"website": " - Design Process", "weblink": "http://issuu.com/studiowangfei/docs/linkedin_75dpi"}],
+  "story": "LinkedIn is a network of over 380 million professionals. However, sometimes when members are happy in their current positions, they become dormant users and choose not to spend their time on LinkedIn. LinkedIn Welcome-Back Portal provides a fresh, simple and immersive landing experience for a dormant user who is returning after 3+ months. The portal page is designed to help dormant users skip the overwhelming information and re-engage with LinkedIn's functions quickly, accurately and effortlessly.",
+  "scrollDown": " to see the design process, high-fidelity mockups and prototype."
+  },
+  {
+  "name": "New York City Sub Rider-Readers",
+  "year": 2013,
+  "type": "Data",
+  "projectUrl": "nycsub.html",
+  "imgNum": 4,
+  "imgUrl": "../img/project/nycsub/",
+  "scrollDownValue": 700,
+  "relatedLinks": [
+    {"website": " - MTA New York City", "weblink": "http://web.mta.info/nyct/facts/ridership/"},
+    {"website": " - Design Process", "weblink": "http://issuu.com/studiowangfei/docs/nyc_readingscape"}
+  ],
+  "story": "MTA New York Subway serves over 5 million commuters everyday, and the ticket checking machines collect user's data 24/7. Using the dataset of NYC subway ridership in 2012 and a series of reading-pattern photographs, this project re-thinks about how to present complex data to the general public, how to make data sympathetic to people that are without data knowledge but curious about data, and how to bridge the data of \"whole\" and the data of \"one\". ",
+  "scrollDown": " to see the design process and ridership-readership interactives."
+  },
+  {
+  "name": "Another Taobao Village 2",
+  "year": 2015,
+  "type": "Data",
+  "projectUrl": "taobao_2.html",
+  "imgNum": 3,
+  "imgUrl": "../img/project/taobao_2/",
+  "scrollDownValue": 720,
+  "relatedLinks": [
+    {"website": " - Taobao.com", "weblink": "http://www.taobao.com"},
+    {"website": " - Design Process", "weblink": "http://issuu.com/studiowangfei/docs/taobao_village"}],
+  "story": "Another Taobao Village is a collaborative project between Alibaba AliResearch and Studiowangfei. It's trying to re-tell the story of Taobao.com, which was initiated by Alibaba Group in 2003 and now the largest e-commerce platform in the world. By 2014, 21% of Taobao online store owners are living in rural areas and there are over 200 Taobao villages across China. The design challenge is to deliver an interactive data tool showing the e-commerce transactions between cities and villages during Taobao E-commerce Fest in 2013. Due to NDA, only a part of the project is presented here and all transaction data was masked beforehand.",
+  "scrollDown": " to see the design process and Taobao village transaction map."
+  },
+  {
+  "name": "San Francisco POPOS",
+  "year": 2015,
+  "type": "Data",
+  "projectUrl": "sfpopos.html",
+  "imgNum": 4,
+  "imgUrl": "../img/project/sfpopos/",
+  "scrollDownValue": 720,
+  "relatedLinks": [
+    {"website": " - ESRL", "weblink": "http://www.esrl.noaa.gov/gmd/grad/solcalc/azel"}],
+  "story": "POPOS stands for Privately Owned Public Open Space. San Francisco City currently owns over 70 POPOS and people usually go to them to enjoy their lunch. Other than its environmental design, another important parameter that decides a POPO's popularity is its sunlight condition during 11:00 to 14:00 every weekday. This project designs a data visualization that maps out all San Francisco POPOS' locations and their shadow conditions at 11:00, 12:00, 13:00 and 14:00. People can use this map to choose the POPO they want to visit based on its location, rating, sunshine/shadow and quality etc. This project is currently under development with OpenStreetMap API.",
+  "scrollDown": " to see the design process and watch the dynamic shadow visualization."
+  },
+  {
+  "name": "Studiowangfei.com v1.0",
+  "year": 2015,
+  "type": "website framework",
+  "projectUrl": "webframe.html",
+  "imgNum": 3,
+  "imgUrl": "../img/project/webframe/",
+  "scrollDownValue": 700,
+  "relatedLinks": [
+    {"website": " - studiowangfei.com", "weblink": "http://www.studiowangfei.com"},
+    {"website": " - dev code on GitHub", "weblink": "https://github.com/studiowangfei/React_studiowangfei.com"}],
+  "story": "Studiowangfei.com is my personal website and showcases some design and research projects. I designed and built it from scratch with the concept of web-components. By tweaking the typologies of components, studiowangfei.com v1.0 was designed as a flexible framework that accomodates both standardization and customization. All project data is seperated as a JSON feed and hooked back with web-components. What you see here is the framework of the first release of this site, by now it probably has evolved.",
+  "scrollDown": " to see the design process and component wireframes and mockups."
+  },
+  {
+  "name": "Another Taobao Village 1",
+  "year": 2014,
+  "type": "Data",
+  "projectUrl": "taobao.html",
+  "imgNum": 3,
+  "imgUrl": "../img/project/taobao/",
+  "scrollDownValue": 740,
+  "relatedLinks": [
+    {"website": " - Alibaba AliResearch", "weblink": "http://www.aliresearch.com"},
+    {"website": " - Taobao.com", "weblink": "http://www.taobao.com"}],
+  "story": "Another Taobao Village is a collaborative project between Alibaba AliResearch and Studiowangfei. It's trying to re-tell the story of Taobao.com, which was initiated by Alibaba Group in 2003 and now the largest e-commerce platform in the world. By 2014, 21% of Taobao online store owners are living in rural areas and there are over 200 Taobao villages across China. This design delivers a fresh and playable format of data visualization and story-telling for Taobao e-commerce platform. The Taobao story poker sets were printed 3000+ physical copies and out of stock within 5 hours after the opening of 2014 Taobao E-commerce Conference.",
+  "scrollDown": " to see the design process and play with the poker game sets."
+  },
+  {
+  "name": "Inside x Insight",
+  "year": 2014,
+  "type": "Data",
+  "projectUrl": "inin.html",
+  "imgNum": 6,
+  "imgUrl": "../img/project/inin/",
+  "scrollDownValue": 0,
+  "relatedLinks": [
+    {"website": " - AliResearch", "weblink": "http://www.aliresearch.com"},
+    {"website": " - Stamen Design", "weblink": "http://www.stamen.com"},
+    {"website": " - Xiaoji", "weblink": "http://xiaoji-chen.com"}],
+  "story": "Data is neutral, dry and messy, while information is political, palatable and organized. Today we are using tons of raw data to manufacture information products. Rather than focusing on news that attracts short attention, Inside x Insight is deciphering events that awaits long digestion. As a data-driven media, Inside x Insight covers politics, technology, economy, culture and environment using multiple open-source and authorized data. The product is currently embedded in the largest Chinese IM tool WeChat platform and has 2000+ active subscribers, our collaborators and contributors include AliResearch, Stamen Design, Power Station of Art, Xiaoji Chen etc.",
+  "scrollDown": null
+  },
+  {
+  "name": "W@RK",
+  "year": 2013,
+  "type": "Strategy",
+  "projectUrl": "work.html",
+  "imgNum": 16,
+  "imgUrl": "../img/project/work/",
+  "scrollDownValue": 640,
+  "relatedLinks": [
+    {"website": " - IDEAS CITY", "weblink": "http://www.newmuseum.org/ideascity/about"}],
+  "story": "W@RK is a design and business proposal rethinking working environment in the context of freelancing. It takes New York City - which has over 40,000 freelancers - as a testing site to conduct mapping research, street interviews, spatial documentation and design experiments. W@RK proposes a new comprehensive co-working model that intergrates sharing economy, dynamic pricing, spatial customization and social networking. Its ambition is simple and bold: Can a freelancer have an instant and productive co-working envrionment at a price of avg. $1/hour in New York City? W@RK was created by Fei Wang and Linsay May, with the support of Princeton University and the New Museum in New York. The project has been exhibited at the Bowery City Fest in 2013.",
+  "scrollDown": " to watch the stories of W@RK and play with the interactive spatial sections."
+  },
+  {
+  "name": "Another Leap",
+  "year": 2014,
+  "type": "Exhibition",
+  "projectUrl": "anotherleap.html",
+  "imgNum": 11,
+  "imgUrl": "../img/project/anotherleap/",
+  "scrollDownValue": 2050,
+  "relatedLinks": [
+    {"website": " - Power Station of Art", "weblink": "http://powerstationofart.com/"},
+    {"website": " - Princeton SoA", "weblink": "https://soa.princeton.edu/#830"},
+  ],
+  "story": "Initiated by Power Station of Art in Shanghai, Another Leap is an exhibition showcasing interactive artworks in both physical and digital forms. Another Leap presents fifteen art pieces that range from social media action art to interactive robotic installations, and it's on show from Oct. 28th of 2014 to Mar. 8th of 2015 at Power Station of Art in Shanghai. Another Leap is co-curated by Fei Wang and Hong Pu, and the participants include: Xiaoji Chen, Rob MacKinnon, Kan Jia, Zhen Liu, Binyuan Li, Link, Shituzi, Another Inc., Liao Li, Hao Ruan, LYCS Architecture, Wei Wang, Harry Wei, Han Dong, Willem Boning, Xing Yan, AliResearch, Ying Yu.",
+  "scrollDown": " to read the exhibition manifesto and browse artworks."
+  },
+  {
+  "name": "Urban v.s. Rural of China 1979- ",
+  "year": 2012,
+  "type": "Data",
+  "projectUrl": "urbanrural.html",
+  "imgNum": 3,
+  "imgUrl": "../img/project/urbanrural/",
+  "scrollDownValue": 600,
+  "relatedLinks": [
+    {"website": " - National Bureau of Statistics of PRC", "weblink": "http://www.stats.gov.cn/english/"}
+  ],
+  "story": "Everyone is talking about the urbanization of China. People say this is the fastest urbanization in human history, but how fast? People say there are many rural residents having moved into cities, but how many? People say the income gap between urban and rural is becoming really big, but how big? The project visualizes Chinese urbanization using data sets including population, income per capita, housing, etc. Together with the important policies implemented by Chinese government and changes initiated by other social entities such as Alibaba's Taobao e-commerce platform, the dry data sets become interrelated and portrays the urbanization of China in a broader and digestible perspective.",
+  "scrollDown": " to play with the interactive data and info layers."
+  },
+  {
+  "name": "Instant Impressionism",
+  "year": 2010,
+  "type": "Urbanism",
+  "projectUrl": "impressionism.html",
+  "imgNum": 10,
+  "imgUrl": "../img/project/impressionism/",
+  "scrollDownValue": 680,
+  "relatedLinks": [
+    {"website": " - VELUX", "weblink": "http://iva.velux.com/about_the_award/previous_awards/award_2010/winners_2010/hm4"}
+  ],
+  "story": "Inspired by Impressionism painter Claude Monet's Rouen Cathedral series, the project designs a new way to defamiliarize the experience of viewing city-scape in noisy and easily-forgotten urban context. Taking Beijing lightrail station as a testing case, a 1:20 installation was designed and fabricated based on certain daylight and viewing-distance conditions, and a 12-hour time-lapse renders how historical artistic styles can be celebrated with contemporary technology. The pixelized strategy is powered by current fabricating tools, i.e. multi-axis milling and 3D printing. Instant Impressionism received Honor Prize in 2010 VELUX design competition and had been exhibited in La Rochelle, France.",
+  "scrollDown": " to watch time-lapse in Beijing and the documentary in La Rochelle, France."
+  },
+  {
+  "name": "Holistic Realm",
+  "year": 2010,
+  "type": "Urbanism",
+  "projectUrl": "holistic.html",
+  "imgNum": 11,
+  "imgUrl": "../img/project/holistic/",
+  "scrollDownValue": 0,
+  "relatedLinks": null,
+  "story": "Holistic Realm revists two traditional Chinese spatial typologies - the courtyard house and the garden- and synthesize them into a new urban morphology that deals with contemporary urban density and quality. The initial research is based on figure-ground method and fast prototyping of varied forms. The further design is forwarded through both 2D and 3D representational mediums. The final 1:200 physical model is made through laser-cut and origami folding of over 200 components. Holistic Realm received 1st Prize in 2011 Chengdu Biennale design competition, and Honor Prize from Design Awards of Architectural-Review Magazine in 2012. It was exhibited in the Garden City unit of 2011 Chengdu Biennale.",
+  "scrollDown": null
+  },
+  {
+  "name": "Draw It",
+  "year": 2012,
+  "type": "Data",
+  "projectUrl": "drawit.html",
+  "imgNum": 9,
+  "imgUrl": "../img/project/drawit/",
+  "scrollDownValue": 0,
+  "relatedLinks": null,
+  "story": "\"A good sketch is better than a long speech\", quote from Napoléon. I make many drawings, most of them are architecture and urbanism related. Invented by Leon Alberti as a documentating and communicating tool in 1400s, architectural drawing take its own autonomy since architects no longer consider \"built\" as the only criteria of a project. It evolves with conceptual utopias, visual criticism, and pure aesthetics. As the productions of paperless and penless, Draw It conducts experiments with new medium and tools in order to create depth, hierachy, insight, knowledge and pleasure.",
+  "scrollDown": null
+  },
+  {
+  "name": "Closer",
+  "year": 2012,
+  "type": "Photography",
+  "projectUrl": "closer.html",
+  "imgNum": 24,
+  "imgUrl": "../img/project/closer/",
+  "scrollDownValue": 0,
+  "relatedLinks": null,
+  "story": "Closer features some photographs I took from 2010 to now, spotted in different countries under different travelling circumstances. The project title \"Closer\" quoted from Robert Frank's \"If your photographs aren't good enough, you're not close enough.\" Most of the works are done in streets, museums and wanderlusting sites, and they captured what was discovered behind banality of daily routine. In an age of instant shooting, Closer still tries to make every \"click\" count and to see even closer.",
+  "scrollDown": null
+  },
+  {}
+];
+
+
