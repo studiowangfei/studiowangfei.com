@@ -1,9 +1,13 @@
 var express = require('express');
-var app = express();
+var server = express();
 
-app.set('port', (process.env.PORT || 5000));
-app.use(express.static(__dirname + '/public'));
+server.set('port', (process.env.PORT || 5000));
+server.use(express.static(__dirname + '/public'));
 
-app.listen(app.get('port'), function() {
-  console.log('The server is running at ' + app.get('port'));
+server.get('/', function(request, response){
+  response.sendFile('public/project.html', { root: __dirname });
+});
+
+server.listen(server.get('port'), function(){
+  console.log('The server is running at ' + server.get('port'));
 });
