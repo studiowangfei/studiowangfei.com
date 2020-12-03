@@ -2,14 +2,19 @@
 .transfer-container{
   font-size: 32px;
   color: #999;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 40px;
   text-transform: none;
 }
 
 #project_request, #project_request:visited{
-  border-bottom: 2px solid #999;
+  border-bottom: 1px solid #999;
   color: #999;
+  font-weight: 500;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
 }
 
 #project_request:hover {

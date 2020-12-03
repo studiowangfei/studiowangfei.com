@@ -28,8 +28,8 @@
 
 .writing_list{
   cursor: pointer;
-  font-weight: 400;
-  color: #bbb;
+  font-weight: 500;
+  color: #999;
 }
 
 #writing_list_0{
@@ -120,5 +120,5 @@
 .writing_title{
   font-size: 23px;
   margin: 32px 0 48px 0;
-  font-weight: 400;
+  font-weight: 500;
 }

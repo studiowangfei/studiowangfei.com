@@ -22,10 +22,10 @@
 }
 
 .contact_brief {
-  line-height:32px;
+  line-height:40px;
   text-align:left;
-  font-size:16px;
-  font-weight:400;
+  font-size:20px;
+  font-weight:500;
   color: #000;
 }
 
@@ -50,10 +50,14 @@
 }
 
 .contact_brief a{
-  font-size: 16px;
-  font-weight: 400;
-  border-bottom: 2px solid #999;
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 1px solid #999;
   color: #999;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
 }
 
 .contact_brief a:hover {
