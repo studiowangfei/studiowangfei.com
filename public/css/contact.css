@@ -24,7 +24,7 @@
 .contact_brief {
   line-height:40px;
   text-align:left;
-  font-size:20px;
+  font-size:16px;
   font-weight:500;
   color: #000;
 }
@@ -50,7 +50,7 @@
 }
 
 .contact_brief a{
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   border-bottom: 1px solid #999;
   color: #999;
